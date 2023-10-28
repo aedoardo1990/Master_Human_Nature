@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /*Generic property styles*/
     color:#ffffff;
+    font-family: 'Lora', sans-serif;
 }
 
 /* Header */
