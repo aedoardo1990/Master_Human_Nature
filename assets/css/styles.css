@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header  {
-    background-color: gold;
+    background-color: 	#d4af37;
     padding: 1%;
     position: absolute;
     z-index: 99;
@@ -47,7 +47,7 @@ h1 {
 /*Dropdown button*/
 .dropbtn {
     background-color: black;
-    color: gold;
+    color: #d4af37;
     padding: 14px;
     font-size: 20px;
     border: none;
@@ -58,13 +58,14 @@ h1 {
 .dropdown {
   position: relative;
   display: flex;
+  float: left;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: gold;
+  background-color: #d4af37;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -100,9 +101,6 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: darkblue;
-}
 
 #social-networks {
     text-align: center;
@@ -110,13 +108,13 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color:gold;
+    background-color:#d4af37;
     color: black;
 }
 
 #social-networks {
     font-size: 120%;
-    padding: 2%;
+    padding: 3%;
 }
 
 /*Media query tablet and larger (768px and up)*/
