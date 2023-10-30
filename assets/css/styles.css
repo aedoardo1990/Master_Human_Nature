@@ -21,7 +21,7 @@ body {
 /* Header */
 header  {
     background-color: gold;
-    padding: 0 1rem;
+    padding: 1%;
     position: absolute;
     z-index: 99;
     width: 100%;
@@ -102,6 +102,21 @@ main {
 /*Footer*/
 footer {
     background-color: darkblue;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color:gold;
+    color: black;
+}
+
+#social-networks {
+    font-size: 120%;
+    padding: 2%;
 }
 
 /*Media query tablet and larger (768px and up)*/
