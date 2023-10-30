@@ -106,7 +106,7 @@ main {
     height: 49rem;
     width: 100%;
     background: url("../images/robertGreene.jpg") no-repeat center;
-    position: relative; 
+    position: relative;
 }
 
 #cover-text {
@@ -141,6 +141,8 @@ main {
 
 /*Media query tablet and larger (768px and up)*/
 @media screen and (min-width:768px) {
+
+    
     .dropbtn{
         display: block;
         position: relative;
@@ -148,5 +150,16 @@ main {
         width: fit-content;
         padding-right: 1rem;
 
+    }
+
+    #Robert-Greene {
+    background-position: right 0px center;
+
+}
+    
+    #cover-text {
+        position: absolute;
+        bottom: 18%;
+        width: 40%;
     }
 }
