@@ -22,7 +22,7 @@ body {
 /* Header */
 header  {
     background-color: 	#d4af37;
-    padding: 1%;
+    padding: 2%;
     position: absolute;
     z-index: 99;
     width: 100%;
@@ -98,7 +98,7 @@ main {
     background-color: black;
     /*Make main element take up any surplus space to push further down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 10px;
 }
 
 /*Robert Greene section*/
@@ -121,6 +121,10 @@ main {
     padding-left: 10px;
 }
 
+#introduction {
+    width: 90%;
+    margin: 20px auto;
+}
 
 /*Footer*/
 
