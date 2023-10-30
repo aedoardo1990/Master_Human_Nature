@@ -40,6 +40,15 @@ h1 {
     list-style-type: none;
 }
 
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px outset black;
+    border-left: 1px outset black;
+}
+
 /* Main */
 main {
     background-color: lightblue;
