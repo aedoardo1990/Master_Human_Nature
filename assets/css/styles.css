@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header  {
-    background-color: #ffd700;
+    background-color: gold;
     padding: 0 1rem;
     position: absolute;
     z-index: 99;
@@ -28,6 +28,17 @@ header  {
     box-shadow: 0 50px 50px white;
 }
 
+h1 {
+    text-transform: uppercase;
+    letter-spacing: auto;
+    color: black;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 0px;
+    list-style-type: none;
+}
 
 /* Main */
 main {
