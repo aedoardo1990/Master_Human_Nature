@@ -31,6 +31,7 @@ header  {
 h1 {
     text-transform: uppercase;
     color: black;
+    float: right;
 }
 
 #menu {
@@ -57,7 +58,6 @@ h1 {
 .dropdown {
   position: relative;
   display: inline-block;
-
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -102,4 +102,16 @@ main {
 /*Footer*/
 footer {
     background-color: darkblue;
+}
+
+/*Media query tablet and larger (768px and up)*/
+@media screen and (min-width:768px) {
+    .dropbtn{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
 }
