@@ -173,6 +173,13 @@ ol>li {
     margin: 25px;
 }
 
+/* Author Section */
+#author {
+    border-radius: 50%;
+    width: 90%;
+    margin-left: 20px;
+}
+
 /*Footer*/
 
 #social-networks {
