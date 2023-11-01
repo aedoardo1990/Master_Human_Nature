@@ -137,15 +137,17 @@ main {
     color: #d4af37;
     width: 90%;
     margin: 20px auto;
+    margin-top: 100px;
 }
 
 ol>li {
-    list-style-type: upper-roman;
+    list-style-type: none;
 }
 
 #understand {
     width: 90%;
     margin: 20px auto;
+    margin-top: 100px;
 }
 
 /*Footer*/
