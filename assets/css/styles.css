@@ -32,6 +32,7 @@ h1 {
     text-transform: uppercase;
     color: black;
     float: right;
+    font-size: 2rem;
 }
 
 #menu {
@@ -133,8 +134,13 @@ main {
 }
 
 #reasons {
+    color: #d4af37;
     width: 90%;
     margin: 20px auto;
+}
+
+ol>li {
+    list-style-type: upper-roman;
 }
 
 /*Footer*/
