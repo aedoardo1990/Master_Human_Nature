@@ -143,6 +143,11 @@ ol>li {
     list-style-type: upper-roman;
 }
 
+#understand {
+    width: 90%;
+    margin: 20px auto;
+}
+
 /*Footer*/
 
 #social-networks {
