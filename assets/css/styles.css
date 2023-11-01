@@ -216,9 +216,12 @@ ol>li {
         margin: 25px;
     }
 
-    #books p {
-        display: flex;
-        position: relative;
+    span {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 1.5rem;
+        width: 49%;
+        padding-left: 2px;
     }
 
     iframe {
