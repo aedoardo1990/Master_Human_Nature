@@ -105,7 +105,7 @@ main {
     background-color: black;
     /*Make main element take up any surplus space to push further down*/
     flex: 1 0 auto;
-    margin-top: 10px;
+    margin-top: 120px;
 }
 
 /*Robert Greene section*/
@@ -114,6 +114,7 @@ main {
     width: 100%;
     background: url("../images/robertGreene.jpg") no-repeat center;
     position: relative;
+    margin-top: -10px;
 }
 
 #cover-text {
@@ -130,7 +131,7 @@ main {
 
 #introduction {
     width: 90%;
-    margin: 20px auto;
+    margin: 100px auto;
 }
 
 #reasons {
@@ -141,7 +142,8 @@ main {
 }
 
 ol>li {
-    list-style-type: none;
+    list-style-position: inside;
+    list-style-type: upper-roman;
 }
 
 #understand {
@@ -181,6 +183,7 @@ ol>li {
 
     #Robert-Greene {
         background-position: right 0px center;
+        margin-top: -35px;
 
     }
 
@@ -188,5 +191,10 @@ ol>li {
         position: absolute;
         bottom: 18%;
         width: 40%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
     }
 }
