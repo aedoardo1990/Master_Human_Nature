@@ -174,22 +174,29 @@ ol>li {
 }
 
 /* Author Section */
+#author-title {
+    margin-left: 15px;
+    margin-top: 49px;
+}
+
 #author {
     border-radius: 50%;
     width: 90%;
-    margin: 15px;
+    margin-left: 15px;
     margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .titles-bio {
     margin-bottom: 10px;
+    margin-left: 20px;
     width: 90%;
-} 
+}
 
 .life {
-    margin: 20px auto;
+    margin-left: 20px;
     width: 90%;
-} 
+}
 
 /*Footer*/
 
@@ -208,6 +215,7 @@ ol>li {
     padding: 3%;
 }
 
+/* Addendum to dropdown section */
 #menu-title {
     display: none;
 
@@ -271,6 +279,31 @@ ol>li {
     #menu-title-2 {
         display: none;
     }
+
+    #author-title {
+        margin-left: 50px;
+        margin-top: 15px;
+
+    }
+
+    #author {
+        border-radius: 50%;
+        width: 90%;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    .titles-bio {
+        margin-bottom: -30px;
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .life {
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 190%;
+    }
 }
 
 
@@ -283,4 +316,26 @@ ol>li {
         margin-bottom: 3.5rem;
     }
 
+    #author-title {
+        margin-left: 50px;
+        margin-top: 15px;
+
+    }
+
+    #author {
+        border-radius: 50%;
+        width: 70%;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+
+    .titles-bio {
+        margin-left: 50px;
+    }
+
+    .life {
+        margin-left: 50px;
+        margin-bottom: 30px;
+        width: 185%;
+    }
 }
