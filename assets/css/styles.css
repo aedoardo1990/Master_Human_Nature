@@ -241,7 +241,7 @@ ol>li {
     flex-grow: 1;
 }
 
-#coffee {
+#Greene-books {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 35px;
@@ -261,7 +261,7 @@ ol>li {
     padding: 0 5px;
 }
 
-#getbook-button {
+.getbook-button {
     margin-top: 20px;
     border-radius: 20%;
     padding: 15px 52px;
@@ -271,11 +271,16 @@ ol>li {
     color: #d4af37;
 }
 
+.getbook-button:hover {
+    background-color: #006400;
+    color: #d4af37;
+}
 
 
 /*Media query tablet and larger (768px and up)*/
 @media screen and (min-width:768px) {
 
+    /* Home */
     .dropbtn {
         display: block;
         position: relative;
@@ -297,20 +302,6 @@ ol>li {
         width: 40%;
     }
 
-    .books img {
-        max-width: 40%;
-        max-height: 40%;
-        margin: 25px;
-    }
-
-    span {
-        display: inline-block;
-        vertical-align: top;
-        padding-top: 1.5rem;
-        width: 49%;
-        padding-left: 2px;
-    }
-
     #video {
         width: 100%;
         height: 400px;
@@ -326,6 +317,23 @@ ol>li {
         display: none;
     }
 
+    /*Books section */
+    .books img {
+        max-width: 40%;
+        max-height: 40%;
+        margin: 25px;
+    }
+
+    span {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 1.5rem;
+        width: 49%;
+        padding-left: 2px;
+    }
+
+
+    /* Author section */
     #author-title {
         margin-left: 50px;
         margin-top: 15px;
@@ -349,6 +357,24 @@ ol>li {
         margin-top: 20px;
         margin-left: 30px;
         width: 190%;
+    }
+
+    /* Form Section */
+    #form-title {
+        margin-left: 10%;
+        margin-top: 15px;
+        font-size: x-large;
+    }
+
+    #data {
+        font-size: 120%;
+        margin-bottom: 4%;
+    }
+
+    .getbook-button {
+        margin-left: 34%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
 }
 
@@ -383,5 +409,26 @@ ol>li {
         margin-left: 50px;
         margin-bottom: 30px;
         width: 185%;
+    }
+
+    /* Form Section */
+    #form-title {
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+
+    #Greene-books {
+        margin-bottom: 6%;
+    }
+
+    #data {
+        font-size: 120%;
+        margin-bottom: 4%;
+    }
+
+    .getbook-button {
+        margin-top: 5%;
+        margin-left: 34%;
+        margin-bottom: 5%;
     }
 }
