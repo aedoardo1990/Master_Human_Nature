@@ -42,59 +42,85 @@
 
     <!--Main Content-->
     <main>
-    <h2 id="form-title">Subscribe to our newsletter and get a free book</h2>
-    <section id="newsletter">
-      <form id="book-form" method="post" action="">
-        <img src="/assets/images/allTheBooks.png" alt="book sample and coffee" id="coffee">
-        <br />
-        <p>Insert your data to complete the subscription:</p>
-        <br />
-        <label for="first-name">First Name *</label>
-        <input
-          type="text"
-          name="first-name"
-          id="first-name"
-          class="text-input"
-          placeholder="First Name"
-          required
-        />
-        <br />
-        <label for="last-name">Last Name *</label>
-        <input
-          type="text"
-          name="last-name"
-          id="last-name"
-          class="text-input"
-          placeholder="Last Name"
-          required
-        />
-        <br />
-        <label for="email-address"> Email Address *</label>
-        <input
-          type="email"
-          name="email-address"
-          id="email-address"
-          class="text-input"
-          placeholder="user@email.com"
-          required
-        />
-        <br />
-        <div>
-            <label for="your-book">Which book would you like to receive? *</label>
-            <select id="your-book" name="your-book" list="all-books" class="text-input" required>
-            <datalist id="all-books" class="text-input">
+      <h2 id="form-title">Subscribe to our newsletter and get a free book</h2>
+      <section id="newsletter">
+        <form id="book-form" method="post" action="https://www.pinterest.it/">
+          <img
+            src="/assets/images/allTheBooks.png"
+            alt="book sample and coffee"
+            id="coffee"
+          />
+          <br />
+          <p>Insert your data to complete the subscription:</p>
+          <br />
+          <label for="first-name">First Name *</label>
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            class="text-input"
+            placeholder="First Name"
+            required
+          />
+          <br />
+          <label for="last-name">Last Name *</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            class="text-input"
+            placeholder="Last Name"
+            required
+          />
+          <br />
+          <label for="email-address"> Email Address *</label>
+          <input
+            type="email"
+            name="email-address"
+            id="email-address"
+            class="text-input"
+            placeholder="user@email.com"
+            required
+          />
+          <br />
+          <div>
+            <label for="your-book"
+              >Which book would you like to receive? *</label
+            >
+            <select
+              id="your-book"
+              name="your-book"
+              list="all-books"
+              class="text-input"
+              required
+            >
+              <datalist id="all-books" class="text-input">
                 <option value="Mastery">Mastery</option>
-                <option value="Laws of Human Nature">The Laws of Human Nature</option>
-                <option value="The 48 Laws of Power">The 48 Laws of Power</option>
-                <option value="The 33 Strategies of War">The 33 Strategies of War</option>
-                <option value="The Art of Seduction">The Art of Seduction</option>
+                <option value="Laws of Human Nature">
+                  The Laws of Human Nature
+                </option>
+                <option value="The 48 Laws of Power">
+                  The 48 Laws of Power
+                </option>
+                <option value="The 33 Strategies of War">
+                  The 33 Strategies of War
+                </option>
+                <option value="The Art of Seduction">
+                  The Art of Seduction
+                </option>
                 <option value="The 50th Law">The 50th Law</option>
                 <option value="The Daily Laws">The Daily Laws</option>
-            </datalist>
-        </div>
-        <button type="submit" class="block-label">Get your free book!</button>
-      </form>
-    </section>
+              </datalist>
+            </select>
+          </div>
+          <button type="submit" id="getbook-button">
+            Get the free book
+            <i class="fa-solid fa-book fa-bounce" style="color: #d4af37"></i>
+          </button>
+        </form>
+      </section>
+      <br />
+      <br />
     </main>
 
     <!--Footer-->

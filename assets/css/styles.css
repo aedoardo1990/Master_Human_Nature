@@ -229,7 +229,7 @@ ol>li {
 
 /* Form Section */
 #form-title {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 39px;
     font-size: large;
 }
@@ -259,6 +259,16 @@ ol>li {
     border-left: none;
     border-radius: 2px;
     padding: 0 5px;
+}
+
+#getbook-button {
+    margin-top: 20px;
+    border-radius: 20%;
+    padding: 15px 52px;
+    font-size: 100%;
+    background-color: black;
+    border-color: #d4af37;
+    color: #d4af37;
 }
 
 
