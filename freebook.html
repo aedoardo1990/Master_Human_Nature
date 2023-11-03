@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Meta Tags for Search Engines-->
+    <meta
+      name="description"
+      content="Master Human Nature, Master Yourself. Robert Greene. Self development, self help"
+    />
+    <meta
+      name="keyword"
+      content="Robert Greene, Human Nature, Laws, Power, Self Development, Self Help, Mastery, Seduction, War, Fear"
+    />
+    <!--Title-->
+    <title>Master Yourself</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <a href="index.html">
+        <h1>Master Yourself</h1>
+      </a>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fa-regular fa-compass fa-spin"></i> Menu
+        </button>
+        <nav class="dropdown-content">
+          <ul id="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="books.html">The Books</a></li>
+            <li><a href="author.html">About the Author</a></li>
+            <li><a href="freebook.html">Get Free Book</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main Content-->
+    <main>
+    <h2 id="form-title">Subscribe to our newsletter and get a free book</h2>
+    <section id="newsletter">
+      <form id="book-form" method="post" action="">
+        <img src="/assets/images/allTheBooks.png" alt="book sample and coffee" id="coffee">
+        <br />
+        <p>Insert your data to complete the subscription:</p>
+        <br />
+        <label for="first-name">First Name *</label>
+        <input
+          type="text"
+          name="first-name"
+          id="first-name"
+          class="text-input"
+          placeholder="First Name"
+          required
+        />
+        <br />
+        <label for="last-name">Last Name *</label>
+        <input
+          type="text"
+          name="last-name"
+          id="last-name"
+          class="text-input"
+          placeholder="Last Name"
+          required
+        />
+        <br />
+        <label for="email-address"> Email Address *</label>
+        <input
+          type="email"
+          name="email-address"
+          id="email-address"
+          class="text-input"
+          placeholder="user@email.com"
+          required
+        />
+        <br />
+        <div>
+            <label for="your-book">Which book would you like to receive? *</label>
+            <select id="your-book" name="your-book" list="all-books" class="text-input" required>
+            <datalist id="all-books" class="text-input">
+                <option value="Mastery">Mastery</option>
+                <option value="Laws of Human Nature">The Laws of Human Nature</option>
+                <option value="The 48 Laws of Power">The 48 Laws of Power</option>
+                <option value="The 33 Strategies of War">The 33 Strategies of War</option>
+                <option value="The Art of Seduction">The Art of Seduction</option>
+                <option value="The 50th Law">The 50th Law</option>
+                <option value="The Daily Laws">The Daily Laws</option>
+            </datalist>
+        </div>
+        <button type="submit" class="block-label">Get your free book!</button>
+      </form>
+    </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-facebook" style="color: #000000"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+            ><i class="fa-brands fa-youtube" style="color: #000000"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our X-Twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-x-twitter" style="color: #000000"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram" style="color: #000000"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!--Font Awesome Kit-->
+    <script
+      src="https://kit.fontawesome.com/4f92087d19.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
