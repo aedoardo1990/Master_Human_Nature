@@ -46,6 +46,10 @@ h1 {
 }
 
 /*Dropdown button*/
+ul {
+    list-style-type: none;
+}
+
 .dropbtn {
     background-color: #d4af37;
     color: #d4af37;
