@@ -86,6 +86,8 @@ h1 {
 .dropdown-content a:hover {
     background-color: #d4af37;
     color: black;
+    border: black thin;
+    transition: 0.6s linear;
 }
 
 /* Show the dropdown menu on hover */
@@ -96,12 +98,7 @@ h1 {
 
 /* Hiding title when opening drop down menu*/
 .dropdown:hover #menu-title-2 {
-    display:none;
-}
-
-.dropdown:hover.active {
-    border-bottom: 1px outset black;
-    border-left: 1px outset black;
+    display: none;
 }
 
 /* Main */
