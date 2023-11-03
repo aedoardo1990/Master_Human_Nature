@@ -47,12 +47,14 @@ h1 {
 
 /*Dropdown button*/
 .dropbtn {
-    background-color: black;
+    background-color: #d4af37;
     color: #d4af37;
     padding: 14px;
     font-size: 20px;
     border: none;
     margin-bottom: 2px;
+    border-radius: 50%;
+    height: 200%;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -66,7 +68,7 @@ h1 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #d4af37;
+    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -74,7 +76,7 @@ h1 {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #d4af37;
     padding: 12px 12px;
     text-decoration: none;
     display: block;
@@ -82,7 +84,8 @@ h1 {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #d4af37;
+    color: black;
 }
 
 /* Show the dropdown menu on hover */
@@ -90,12 +93,13 @@ h1 {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: darkblue;
+
+/* Hiding title when opening drop down menu*/
+.dropdown:hover #menu-title-2 {
+    display:none;
 }
 
-.active {
+.dropdown:hover.active {
     border-bottom: 1px outset black;
     border-left: 1px outset black;
 }
@@ -227,9 +231,9 @@ ol>li {
 }
 
 #menu-title-2 h1 {
-    font-size: large;
+    font-size: x-large;
     padding-left: 5px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 /* Form Section */
