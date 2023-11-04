@@ -159,6 +159,25 @@ ol>li {
 
 #video {
     margin-bottom: 0.5rem;
+    width: 100%;
+    border: black;
+}
+
+/*Footer*/
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #d4af37;
+    color: black;
+}
+
+#social-networks {
+    font-size: 120%;
+    padding: 3%;
 }
 
 /* Books */
@@ -206,35 +225,6 @@ ol>li {
 .life {
     margin-left: 20px;
     width: 90%;
-}
-
-/*Footer*/
-
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #d4af37;
-    color: black;
-}
-
-#social-networks {
-    font-size: 120%;
-    padding: 3%;
-}
-
-/* Addendum to menu dropdown section */
-#menu-title {
-    display: none;
-
-}
-
-#menu-title-2 h1 {
-    font-size: x-large;
-    padding-left: 5px;
-    padding-top: 12px;
 }
 
 /* Form Section */
@@ -331,6 +321,15 @@ ol>li {
         margin-left: 30px;
     }
 
+    .titles-bio {
+        margin-left: 30px;
+    }
+
+    .life {
+        margin-left: 30px;
+        width: 90%;
+    }
+
     /* Form section */
     #form-title {
         margin-left: 10%;
@@ -417,15 +416,15 @@ ol>li {
     }
 
     .titles-bio {
-        margin-bottom: -30px;
-        margin-left: 30px;
+        margin-left: 40px;
         width: 90%;
     }
 
     .life {
-        margin-top: 20px;
-        margin-left: 30px;
-        width: 190%;
+        margin-top: 15px;
+        margin-left: 40px;
+        width: 90%;
+        margin-bottom: 25px;
     }
 
     /* Form Section */
@@ -476,7 +475,7 @@ ol>li {
     .life {
         margin-left: 50px;
         margin-bottom: 30px;
-        width: 185%;
+        width: 90%;
     }
 
     /* Form Section */
