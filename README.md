@@ -128,16 +128,12 @@ TO DO
 
 The result of the W3C Validator is all correct, except of the lines below where I get the following green message: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. "
 
-1st page - index.html
 ![index](./assets/images/readme_images/html_validation_index.png)
 
-2nd page - books.html
 ![books](./assets/images/readme_images/html_validation_books.png)
 
-3rd page - author.html
 ![author](./assets/images/readme_images/html_validation_author.png)
 
-4th page - freebook.html
 ![freebook](./assets/images/readme_images/html_validation_freebok.png)
 
 The message is due to a slash at the end of the end tag, that I removed multiple times but then it is added again by the IDE automatically anytime I save the HTML page.
