@@ -1,22 +1,25 @@
 # Master Yourself
 
-Welcome to the Website that will allow you to learn Human Nature with Robert Greene, the modern Macchiavelli. The site offers an overview about Robert Greene, his books and how his masterpieces will allow you to get invaluable insights about Human Nature, helping you to know deeper your persona and to navigate wisely the social arena.
+Welcome to the Website that will allow you to learn Human Nature with Robert Greene, the modern Macchiavelli. The site offers an overview about the books of Robert Greene and how the ywill allow you to get invaluable insights about Human Nature, helping you to know deeper your persona and to navigate wisely the social arena.
 
-Master Yourself has a simple and user-friendly design, aiming as well at conveying the value of Greene's books.
+Master Yourself has a simple and user-friendly design, aiming as well at conveying the golden value of the content of Greene's books.
 
-Check out our site at <https://github.com/aedoardo1990/Master_Human_Nature>
+Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
 
+![Responsive Mockup](https://github.com/aedoardo1990/Master_Human_Nature/blob/main/assets/images/readme_images/readme_mockup.png)
 ---
 
 # Content
 
+<!--Toc-->
+
 - [User Experience](#user-experience)
   - [Target Audience](#target-audience)
   - [User stories](#user-stories)
-    - [Hiring Kasimir for a Missing Item Case](#hiring-kasimir-for-a-missing-item-case)
-    - [I want to look up the success of Pawsome Detective](#i-want-to-look-up-the-success-of-pawsome-detective)
-    - [I want user-friendly information from any device](#i-want-user-friendly-information-from-any-device)
-    - [I want to contact the Pawsome Detectiv Agency](#i-want-to-contact-the-pawsome-detectiv-agency)
+    - [I want a clear overview of Greene books](#i-want-a-clear-overview-of-greene-books)
+    - [Looking for valuable self-development books](#looking-for-valuable-self-development-books)
+    - [Manager at Bank99 into self-development](#manager-at-bank99-into-self-development)
+    - [Looking for a free eBook](#looking-for-a-free-ebook)
 - [Design](#design)
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
@@ -69,27 +72,33 @@ Check out our site at <https://github.com/aedoardo1990/Master_Human_Nature>
   - [Mobile Navabar isn't centered](#mobile-navabar-isnt-centered)
 - [Credits](#credits)
 
+<!--Toc stop-->
+
 ---
 
 ## User Experience
 
 ### Target Audience
 
-The Master Yourself Website targets an audience of people interested in self-development, working mostly in business and politics, and anyone who is eager to learn more about Human Nature.
+The Master Yourself Website targets an audience of people interested in self-development, working mostly in business, politics or social and working environments where people skills are fundamental. It aims as well at reaching anyone who is eager to learn more about Human Nature, to know oneself and the others thoroughly and ground their life and personal development in reality, past the pain and boredom of everyday life.
 
 ### User Stories
 
 #### I want a clear overview of Greene books
 
-As a fan of Greene, I want a website giving me a clear overview of all his books.
+I heard a lot about Greene books and I'd like to read one of them, but I do not from which one to start. I want a website giving me a clear overview of all his books, so that I could decide which suits better to my taste.
 
-### Looking for valuable self-development books
+#### Looking for valuable self-development books
 
-I am a compulsive reader, especially of self development books. Often it is difficult to find really valuable books about this field. I hope to find great content on the Master Yourself Website.
+I am a compulsive reader, especially of self development books. It is often difficult to find valuable books in the self development field, since many of them are written mostly for profit and give superficial life advices rather than practical life-hacks. Greene has a very good reputation in this field and I hope that the  Master Yourself Website will help me to understand if he is the writer that I am looking for.
 
-### Looking for a free eBook
+#### Manager at Bank99 into self-development
 
-I love reading but I do not have much money to buy books every month. I would like to see if there is any option to get a free eBook. Culture and knowledge should be for free to improve our society.
+I have recently been promoted as Manager. Being in a managerial position, it is fundamental for me to understand deeply the dynamics of power and human behaviour within my company. I will check the Master Yourself website to have an overview about The 48 Laws of Power of Robert Greene or other of his books. Many people say that this book is the final guide for anyone who has power or wants to arm against those in power.
+
+#### Looking for a free eBook
+
+I love reading but I do not have much money to buy books every month. I would like to see if there is any option to get a free eBook. Culture and knowledge should be for free to help our society to blossom.
 
 ## Design
 
