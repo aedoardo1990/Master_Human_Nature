@@ -110,6 +110,14 @@ On the Get Free EBook page the "get your ebook" button becomes green when the fo
 
 ![Colour Scheme](./assets/images/readme_images/human_nature_colorpalette_readme.png)
 
+
+### Typography
+The Font chosen for the text on all the pages is Lora. Purpose of the font with the golden color is to be elegant, easy and pleasant to read. In the Newsletter section there is a live icon with a "jumping" book, that invites the visitor of the side to get the free eBook. 
+
+### Imagery 
+In the photo in the index.html page there is a younger Greene than his current age, which looks ambitious, clever and successful. The photo should mirror the personality of businessmen and politicians who would like to be like Robert Greene, or anyone aiming at self-developing. In "The Author" page there is Greene with his cat and surrounded by books. This page want to give some information about the life of the author and the photo with the pet conveys friendliness and familiarity with the author. The books around him remind of his knowledge. On the photo in the Get Free eBook page there are all the books of Greene together. They look on a "homy" surface and some of them are used. The photo wants to give the idea to the visitors of the site that with one click they can receive the free eBook and read it comfortably on the sofa of their home.
+
+
 ## w3c-validator
 
 The W3C Validator is all correct, except of the lines 4,5,6,8,12,18 where I get the following green message.
