@@ -290,6 +290,10 @@ ol>li {
 @media screen and (min-width: 576px) {
 
     /* Home */
+    #menu-title-2 {
+        margin-left: 100px;
+    }
+
     #video {
         margin-bottom: 10%;
     }
@@ -351,15 +355,6 @@ ol>li {
 @media screen and (min-width:768px) {
 
     /* Home */
-    .dropbtn {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-
-    }
-
     #Robert-Greene {
         background-position: right 0px center;
         margin-top: -40px;
