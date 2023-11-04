@@ -98,3 +98,11 @@ I love reading but I do not have much money to buy books every month. I would li
 The colors chosen for Master Yourself are black and metallic gold. They want to remind the colors of the book of Greene called "Mastery". Gold symbolizes wealth and prosperity, abundance and accomplishment throught history, reminding that Greene's books are a mix of distilled wisdom from the biographies of mutliple successful historical characters. Black symbolizes elegance, power, restraint, fear, evil and occult. It represents how Greene's books take deeply into analysis the so-called negative emotions of human beings, their dark side, but teaches as well how to control and master them for our own goals.
 
 ![Colour Scheme](./assets/images/Human_Nature_colorpalette.png)
+
+## w3c-validator
+
+The W3C Validator is all correct, except of the lines 4,5,6,8,12,18 where I get the following green message.
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+The message is due to a slash at the end of the end tag, that I removed multiple times but then it is added by the IDE automatically anytime I save the HTML page.
