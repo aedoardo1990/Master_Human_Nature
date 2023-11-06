@@ -226,3 +226,9 @@ The Website was tested on various devices, OnePlusNord10, iPhone13 mini, Google 
 ### Mentor, family and friends testing
 
 My mentor, my family and friends checked the site and helped to identify bugs and get a feeling about how the user-experience is perceived by visitors of the site.
+
+### Fixed bugs
+
+**Dropdown menu not working properly on Mobiles**
+
+- The dropdown menu was opening too quickly on mobile, and it was easily redirecting to the Home page before having the time to
