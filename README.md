@@ -124,11 +124,11 @@ The wireframes for the Master Yourself website were created with Balsamiq.
 
 1-Wireframe for Desktop
 
-<img src="./assets/images/readme_images/Master_Yourself_Desktop_HQ.png" alt="wireframe desktop" width="450px" height="800px">
+<img src="./assets/images/readme_images/Master_Yourself_Desktop_HQ.png" alt="wireframe desktop" width="500px" height="800px">
 
 2-Wireframe for Mobile
 
-<img src="/assets/images/readme_images/Master_Yourself_Mobile_HQ.png)" alt="wireframe mobile" width="350px" height="700px">
+<img src="./assets/images/readme_images/Master_Yourself_Mobile_HQ.png" alt="wireframe mobile" width="350px" height="700px">
 
 ## Testing
 
