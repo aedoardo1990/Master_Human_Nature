@@ -25,52 +25,39 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
   - [Typography](#typography)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
-    - [Desktop:](#desktop)
-    - [Mobile:](#mobile)
-  - [Design](#design-1)
-- [Features](#features)
-  - [General Features](#general-features)
-    - [Navigation-Bar](#navigation-bar)
-    - [Footer with Impressum](#footer-with-impressum)
-    - [Header](#header)
-    - [About](#about)
-    - [Portfolio](#portfolio)
-    - [Reviews](#reviews)
-    - [Contact](#contact)
-  - [Future Implementations](#future-implementations)
-    - [Calender](#calender)
-    - [Blog](#blog)
-    - [Events and Workshops](#events-and-workshops)
-    - [Price Table](#price-table)
-    - [Hiring](#hiring)
-  - [Accessibility](#accessibility)
-    - [Fonts and Font Sizes](#fonts-and-font-sizes)
-    - [Pictures](#pictures)
-    - [Colors](#colors)
-    - [Structural HTML](#structural-html)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Deployment & Local Development](#deployment--local-development)
+  - - [Features](#features)
+    - [The dropdown navigation menu](#the-dropdown-navigation-menu)
+    - [The landing image](#the-landing-image)
+    - [Reasons section and Youtube video](#reasons-section-and-youtube-video)
+    - [The Books page](#the-books-page)
+    - [About the author page](#about-the-author-page)
+    - [Get your free eBook page](#get-your-free-ebook-page)
+    - [Footer](#footer)
+  - [Features left to implement](#features-left-to-implement)
+    - [Flip cards](#flip-cards)
+    - [Video page](#video-page)
+    - [ECommerce page](#ECommerce-page)
+    - [Events page](#events-page)
+  - [Testing](#testing)
+    - [HTML - W3C-Validator](#html-w3c-validator)
+    - [CSS-Validator](#css-validator)
+    - [Lighthouse testing](#lighthouse-testing)
+    - [Form testing](#form-testing)
+    - [Device testing](#device-testing)
+    - [Mentor, family and friends testing](#mentor-family-and-friends-testing)
+    - [Fixed bugs](#fixed-bugs)
+      - [Dropdown menu not working properly on Mobiles](#dropdown-menu-not-working-properly-on-Mobiles)
+      - [Images not loading on the pages "About the author" and "Get free eBook"](#images-not-loading-on-the-pages-about-the-author-and-get-free-ebook)
+    - [Unfixed bugs](#unfixed-bugs)
+  - [Technologies used](#technologies-used)
+    - [Languages](#languages)
+    - [Programs used](#programs-used)
   - [Deployment](#deployment)
-  - [Local Development](#local-development)
-    - [How to Clone](#how-to-clone)
-    - [How to Fork](#how-to-fork)
-- [Testing](#testing)
-  - [Manual Testing](#manual-testing)
-    - [Jigsaw CSS Validator](#jigsaw-css-validator)
-    - [W3C Validator](#w3c-validator)
-    - [Lighthouse](#lighthouse)
-    - [Accessibility](#accessibility-1)
-  - [Full Testing](#full-testing)
-    - [Testing by Hand](#testing-by-hand)
-- [Ongoing Bugs](#ongoing-bugs)
-  - [Mail Form doesn't send an email](#mail-form-doesnt-send-an-email)
-  - [Review Gallery on small mobile](#review-gallery-on-small-mobile)
-- [Fixed Bugs](#fixed-bugs)
-  - [Label seems to drop in line with the input](#label-seems-to-drop-in-line-with-the-input)
-  - [Mobile Navabar isn't centered](#mobile-navabar-isnt-centered)
-- [Credits](#credits)
+  - [Credits](#credits)
+    - [Contents](#content)
+    - [Media](#media)
+    - [Code used](#code-used)
+  - [Acknowledgements](#acknowledgements)
 
 <!--Toc stop-->
 
@@ -175,7 +162,7 @@ In this page there is Greene with his cat and surrounded by books. This page wan
 ## Features left to implement
 
 - Flip cards: in "The Books" page, we would like to modify the cover of the books to become flip cards. When the user would click on the cover, this should flip and each time give a new short quote extracted from the book on which the visitor clicked.
-- Video page: we would like to add a Video page to the website, where weekly new videos are published about the teachings of Robert or his participation to public events
+- Video page: we would like to add a Video page to the website, where new videos are published weekly about the teachings of Robert or his participation to public events
 - ECommerce page: we would like to develop an ecommerce page to provide the hard copies of our books directly to the customers.
 - Events page: we would like to create a page with the list of all the events to which Robert Greene will take part. Fans of Robert could buy their tickets to the event here and it would be a great opportunity to meet him in person.
 
@@ -260,41 +247,45 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 - [Font Awesome](https://fontawesome.com/) - for social media icons in footer and for icon of the dropdown menu
 - [W3C](https://www.w3.org/) - for HTML & CSS Validation.
 
+## Deployment
 
-## Deployment 
-The project was deployed on GitHub pages. 
+The project was deployed on GitHub pages.
 
 ![project deployed](./assets/images/readme_images/deployment.png)
 
 ## Credits
 
 ### Content
+
 The content about Robert Greene's biography, activity and the summary of his books was sourced from the below websites:
 -[Wikipedia](https://www.wikipedia.org/)
+
 - [Amazon](https://www.amazon.de/)
 
-### Media 
+### Media
+
 The video on the Home page was sourced from the Youtube channel of Robert Greene:
+
 - [Robert Greene Official](https://www.youtube.com/@RobertGreeneOfficial)
 
 The photos were taken from the following websites:
+
 - [Wikipedia](https://www.wikipedia.org/) - landing image on the Home page
 - [Pinterest](https://www.pinterest.it/) - covers of the books on "The Books" page and photo of the author on "About the author" page
-- [Mediuam] (https://medium.com/@keepasking/a-year-with-robert-greene-102876c9b4ca) - photo of all the books on the page "Get free eBook"
+- [Mediuam] (<https://medium.com/@keepasking/a-year-with-robert-greene-102876c9b4ca>) - photo of all the books on the page "Get free eBook"
 
-### Code used 
+### Code used
+
 - Inspiration for the dropdown bar - [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp)
 - Inspiration for the form menu - [Code Institute] (Coders Coffehouse Project, Love Running Project) and [Ferrari](https://www.ferrari.com/en-EN/auto/owner-reg)
 - Starting structure of the site - [Code Institute] (Love Running Project)
 - Books section for screens from 768px and up - [Amazon](https://www.amazon.de/-/en/Kommunikation-Psychologie-Business-Karriere-B%C3%BCcher/b/ref=dp_bc_aui_C_3?ie=UTF8&node=467524)
 - Inspiration for the Readme - [mindyoga](https://github.com/AliOKeeffe/mindyoga/blob/main/README.md) and [pawsome](https://github.com/dasunicorn/pawsome)
 
-## Acknowledgements 
-My mentor Antonio for his great support and all the useful advices. 
+## Acknowledgements
 
-My wife for her great love and support in everything I do. 
+My mentor Antonio for his great support and all the useful advices.
 
-Kay of Code Institute for the many tips on how to use different programms for the project. 
+My wife for her great love and support in everything I do.
 
-
-
+Kay of Code Institute for the many tips on how to use different programs for the project.
