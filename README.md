@@ -136,11 +136,11 @@ The wireframes for the "Master Yourself" website were created with Balsamiq.
 
 The result of the W3C Validator is all correct, except of the lines below where I get the following green message: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. "
 
-<img src="./assets/images/readme_images/html_validation_index.png" alt="index.html" height="500px" width="700px">
+<img src="./assets/images/readme_images/html_validation_index.png" alt="index.html" height="450px" width="700px">
 
 <img src="./assets/images/readme_images/html_validation_books.png" alt="books.html" height="800px" width="650x">
 
-<img src="./assets/images/readme_images/html_validation_author.png" alt="author.html" height="900px" width="650px">
+<img src="./assets/images/readme_images/html_validation_author.png" alt="author.html" height="850px" width="650px">
 
 <img src="./assets/images/readme_images/html_validation_freebok.png" alt="freebook.html" height="900px" width="600px">
 
