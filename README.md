@@ -126,7 +126,7 @@ Wireframe for Desktop
 <img src="./assets/images/readme_images/Master_Yourself_Desktop_HQ.png" alt="wireframe desktop" width="100" height="100">
 
 Wireframe for Mobile
-<img src="./assets/images/readme_images/Master_Yourself_Mobile_HQ.png)" alt="wireframe mobile" width="100" height="100">
+<img src="/assets/images/readme_images/Master_Yourself_Mobile_HQ.png)" alt="wireframe mobile" width="100" height="100">
 
 ## Testing
 
