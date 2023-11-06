@@ -122,12 +122,13 @@ In the photo in the index.html page there is a younger Greene than his current a
 
 The wireframes for the Master Yourself website were created with Balsamiq.
 
-Wireframe for Desktop
-<img src="./assets/images/readme_images/Master_Yourself_Desktop_HQ.png" alt="wireframe desktop" width="350px" height="800px">
+1-Wireframe for Desktop
 
-Wireframe for Mobile
-<img src="/assets/images/readme_images/Master_Yourself_Mobile_HQ.png)" alt="wireframe mobile" width="275px" height="700px>
+<img src="./assets/images/readme_images/Master_Yourself_Desktop_HQ.png" alt="wireframe desktop" width="450px" height="800px">
 
+2-Wireframe for Mobile
+
+<img src="/assets/images/readme_images/Master_Yourself_Mobile_HQ.png)" alt="wireframe mobile" width="350px" height="700px">
 
 ## Testing
 
