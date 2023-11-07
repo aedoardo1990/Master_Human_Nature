@@ -35,10 +35,10 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
 - [Features left to implement](#features-left-to-implement)
   - [Flip cards](#flip-cards)
   - [Video page](#video-page)
-  - [ECommerce page](#ECommerce-page)
+  - [ECommerce page](#ecommerce-page)
   - [Events page](#events-page)
 - [Testing](#testing)
-  - [HTML - W3C-Validator](#html-w3c-validator)
+  - [HTML-W3C-Validator](#html-w3c-validator)
   - [CSS-Validator](#css-validator)
   - [Lighthouse testing](#lighthouse-testing)
   - [Form testing](#form-testing)
@@ -162,20 +162,24 @@ In this page there is Greene with his cat and surrounded by books. This page wan
 ## Features left to implement
 
 #### Flip cards
+
 in "The Books" page, we would like to modify the cover of the books to become flip cards. When the user would click on the cover, this should flip and each time give a new short quote extracted from the book on which the visitor clicked.
 
 #### Video page
+
 We would like to add a Video page to the website, where new videos are published weekly about the teachings of Robert or his participation to public events
 
-#### ECommerce page 
+#### ECommerce page
+
 We would like to develop an ecommerce page to provide the hard copies of our books directly to the customers.
 
 #### Events page
+
 We would like to create a page with the list of all the events to which Robert Greene will take part. Fans of Robert could buy their tickets to the event here and it would be a great opportunity to meet him in person.
 
 ## Testing
 
-### HTML - W3C-Validator
+### HTML-W3C-Validator
 
 The result of the W3C Validator is all correct, except of the lines below where I get the following green message: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. "
 
