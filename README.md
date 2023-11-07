@@ -4,7 +4,7 @@ Welcome to the Website that will allow you to learn Human Nature with Robert Gre
 
 Master Yourself has a simple and user-friendly design, and a captivating look aiming at conveying the golden value of the content of Greene's books.
 
-Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
+The live link of our site can be found here - [Master Yourself](https://aedoardo1990.github.io/Master_Human_Nature/).
 
 ![Responsive Mockup](https://github.com/aedoardo1990/Master_Human_Nature/blob/main/assets/images/readme_images/readme_mockup.png)
 ---
