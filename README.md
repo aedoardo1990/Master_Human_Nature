@@ -153,9 +153,12 @@ In this page there is Greene with his cat and surrounded by books. This page wan
 ### "Get Free eBook" page
 
 - Here the visitors have the opportunity to fill out a form to subscribe to our newsletter and get one of the books in eBook format. It is an option to promote free culture and knowledge for the sake of society and learning.
+  
+![free eBook](./assets/images/readme_images/freebook_page2.png)
+
 - On the photo of the page there are all the books of Greene. They look on a "homy" surface and some of them are used. The photo wants to give the idea to the visitors of the site that with "one-click" they can receive the free eBook and read it comfortably on the sofa of their home.
 
-![free eBook](./assets/images/readme_images/freebook_page.png)
+![free eBook](./assets/images/readme_images/freebook_page1.png)
 
 ### Footer
 
