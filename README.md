@@ -45,7 +45,7 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
   - [Device testing](#device-testing)
   - [Mentor, family and friends testing](#mentor-family-and-friends-testing)
   - [Fixed bugs](#fixed-bugs)
-    - [Dropdown menu not working properly on Mobiles](#dropdown-menu-not-working-properly-on-Mobiles)
+    - [Dropdown menu not working properly on Mobiles](#dropdown-menu-not-working-properly-on-mobiles)
     - [Images not loading on the pages "About the author" and "Get free eBook"](#images-not-loading-on-the-pages-about-the-author-and-get-free-ebook)
   - [Unfixed bugs](#unfixed-bugs)
 - [Technologies used](#technologies-used)
@@ -53,7 +53,7 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
   - [Programs used](#programs-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
-  - [Contents](#content)
+  - [Contents](#contents)
   - [Media](#media)
   - [Code used](#code-used)
 - [Acknowledgements](#acknowledgements)
@@ -273,7 +273,7 @@ The link of the deployed site can be found here - [Master Yourself](https://aedo
 
 ## Credits
 
-### Content
+### Contents
 
 The content about Robert Greene's biography, activity and the summary of his books was sourced from the below websites:
 
