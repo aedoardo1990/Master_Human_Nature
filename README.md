@@ -227,13 +227,13 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 
 ### Fixed bugs
 
-**Dropdown menu not working properly on mobiles**
+#### Dropdown menu not working properly on mobiles
 
 - The dropdown menu was opening too quickly on mobile, and it was often redirecting to the Home page before having the time to select any of the other pages. This was because the dropdown hover fuction implemented in CSS works on desktop, but not on mobile where the hovering should be replaced by clicking.
 - I was unsure what was the root cause, which of the elements to which I applied the CSS was the one provoking the issue.
 - The issue was resolved by applying the CSS declaration "display:block" to all these elements as per line 97 of the CSS file.
 
-**Images not loading on the pages "About the author" and "Get free eBook"**
+#### Images not loading on the pages "About the author" and "Get free eBook"
 
 - On the deployed version of the website, the images were not loading on the pages mentioned in the title.
 - For the photo in the "About the author" page, I added a dot at the beginning of the url - src="./assets/images/robertGreeneCat.jpg" - and then the photo loaded successfully.  
