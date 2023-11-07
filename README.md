@@ -16,16 +16,15 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
 - [User Experience](#user-experience)
   - [Target Audience](#target-audience)
   - [User stories](#user-stories)
-    - [I want a clear overview of Greene books](#i-want-a-clear-overview-of-greene-books)
-    - [Looking for valuable self-development books](#looking-for-valuable-self-development-books)
-    - [Manager at Bank99 into self-development](#manager-at-bank99-into-self-development)
-    - [Looking for a free eBook](#looking-for-a-free-ebook)
+    - [First time user](#first-time-user)
+    - [Returning user](#returning-user)
+    - [Frequent user](#frequent-user)
 - [Design](#design)
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
-    - - [Features](#features)
+      - - [Features](#features)
     - [The dropdown navigation menu](#the-dropdown-navigation-menu)
     - [The landing image](#the-landing-image)
     - [Reasons section and Youtube video](#reasons-section-and-youtube-video)
@@ -63,33 +62,34 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
 
 ---
 
-## User Experience
+## User experience
 
-### Target Audience
+### Target audience
 
 The Master Yourself Website targets an audience of people interested in self-development, working mostly in business, politics or in social environments where people skills are fundamental. It aims as well at reaching anyone who is eager to learn more about Human Nature, to know oneself and the others thoroughly and ground their life and personal development in reality, past the pain and boredom of everyday life.
 
-### User Stories
+## User stories
 
-#### I want a clear overview of Greene books
+### First time user
 
-I heard a lot about Greene books and I'd like to read one of them, but I do not know from which one to start. I want a website giving me a clear overview of all his books, so that I could decide which suits better to my taste.
+- As a first time user I want to understand the main purpose of the website and learn about why I should read the books of Robert Greene
+- As a first time I want to have a website that is easy to navigate and that would spark my interest
+- As a first time user I want to have on overview of all the books of Greene and get some free content
 
-#### Looking for valuable self-development books
+### Returning user
 
-I am a compulsive reader, especially of self development books. It is often difficult to find valuable books in the self development field, since many of them are written mostly for profit and give superficial life advices rather than practical life-hacks. Greene has a very good reputation in this field and I hope that the  Master Yourself Website will help me to understand if he is the writer that I am looking for.
+- As a returning user I would like to get an overview about which book of Robert Greene I could read next
+- As a returning user I would like to get an additional free eBook 
+- As a returning user I would check the video and the "About the author page" to know more about the background of the writer
 
-#### Manager at Bank99 into self-development
+### Frequent user
 
-I have recently been promoted as Manager. Being in a managerial position, it is fundamental for me to understand deeply the dynamics of power and human behaviour within my company. I will check the Master Yourself website to have an overview about The 48 Laws of Power of Robert Greene or other of his books. Many people say that this book is the final guide for anyone who has power or wants to arm against those in power.
-
-#### Looking for a free eBook
-
-I love reading but I do not have much money to buy books every month. I would like to see if there is any option to get a free eBook. Culture and knowledge should be for free to help our society to blossom.
+- As a frequent user I want to signup to the newsletter to get weekly practical advices in the field of self-development
+- As a frequent user I want to get all the 7 free eBooks that are available on the site
 
 ## Design
 
-### Color Scheme
+### Color scheme
 
 The colors chosen for Master Yourself are black, metallic gold and cerulean blue. The first two recall the colors of the cover of Greene's book entitled "Mastery". Gold symbolizes wealth and prosperity, abundance and accomplishment throughout history, reminding that Greene's books are a mix of distilled wisdom from the biographies of mutliple successful historical characters. Black symbolizes elegance, power, restraint, fear, evil and occult. It represents how Greene's books take deeply into analysis the negative emotions of human beings, the dark side of human nature, but teaches as well how to control and master them for our own goals and wellbeing.
 The color blue can be found only in the window on the index.html. Blue represents open spaces, imagination, the serenity and freedom that can come with wisdom and knowledge.
@@ -138,19 +138,19 @@ The navigation menu can be accessed by clicking on the black round icon on the t
 
 ![youtube video](./assets/images/readme_images/introduction_page.png)
 
-### The Books page
+### "The Books" page
 
 Here the visitors can find an introduction about the content of every book of Greene.
 
 ![books page](./assets/images/readme_images/books_page.png)
 
-### About the author page
+### "About the Author" page
 
 In this page there is Greene with his cat and surrounded by books. This page wants to give some information about the life of the author and the photo with the pet conveys friendliness and familiarity with him. The books around him remind of his knowledge.
 
 ![author page](./assets/images/readme_images/author_page.png)
 
-### Get your free eBook page
+### "Get Free eBook" page
 
 - Here the visitors have the opportunity to fill out a form to subscribe to our newsletter and get one of the books in eBook format. It is an option to promote free culture and knowledge for the sake of society and learning.
 - On the photo of the page there are all the books of Greene. They look on a "homy" surface and some of them are used. The photo wants to give the idea to the visitors of the site that with "one-click" they can receive the free eBook and read it comfortably on the sofa of their home.
@@ -216,7 +216,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 
 ### Fixed bugs
 
-**Dropdown menu not working properly on Mobiles**
+**Dropdown menu not working properly on mobiles**
 
 - The dropdown menu was opening too quickly on mobile, and it was often redirecting to the Home page before having the time to select any of the other pages. This was because the dropdown hover fuction implemented in CSS works on desktop, but not on mobile where the hovering should be replaced by clicking.
 - I was unsure what was the root cause, which of the elements to which I applied the CSS was the one provoking the issue.
@@ -230,7 +230,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 
 ### Unfixed bugs
 
-- Firefox Mobile: the form layout does not display completely as it should. As mentioned in the Browser testing, the dropdown menu does not work completely in Firefox.
+- Firefox Mobile: the layout of the form section does not display completely as it should. As mentioned in the Browser testing, the dropdown menu does not work completely in Firefox.
 
 ## Technologies used
 
@@ -265,7 +265,8 @@ The link of the deployed site can be found here - [Master Yourself](https://aedo
 ### Content
 
 The content about Robert Greene's biography, activity and the summary of his books was sourced from the below websites:
--[Wikipedia](https://www.wikipedia.org/)
+
+- [Wikipedia](https://www.wikipedia.org/)
 
 - [Amazon](https://www.amazon.de/)
 
