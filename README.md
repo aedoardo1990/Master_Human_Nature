@@ -94,7 +94,7 @@ The Master Yourself Website targets an audience of people interested in self-dev
 The colors chosen for Master Yourself are black, metallic gold and cerulean blue. The first two recall the colors of the cover of Greene's book entitled "Mastery". Gold symbolizes wealth and prosperity, abundance and accomplishment throughout history, reminding that Greene's books are a mix of distilled wisdom from the biographies of multiple successful historical characters. Black symbolizes elegance, power, restraint, fear, evil and occult. It represents how Greene's books take deeply into analysis the negative emotions of human beings, the dark side of human nature, but teaches as well how to control and master them for our own goals and wellbeing.
 The color blue can be found only in the window on the index.html. Blue represents open spaces, imagination, the serenity and freedom that we can achieve with wisdom and knowledge.
 
-![Color Scheme](./assets/images/readme_images/human_nature_colorpalette_readme.png)
+![Color Scheme](./assets/images/readme_images/human-nature-colorpalette-readme.png)
 
 ### Typography
 
@@ -110,11 +110,11 @@ The wireframes for the "Master Yourself" website were created with Balsamiq.
 
 1-Wireframe for Desktop
 
-<img src="./assets/images/readme_images/Master_Yourself_Desktop_HQ.png" alt="wireframe desktop" width="450px" height="800px">
+<img src="./assets/images/readme_images/master-yourself-desktop-hq.png" alt="wireframe desktop" width="450px" height="800px">
 
 2-Wireframe for Mobile
 
-<img src="./assets/images/readme_images/Master_Yourself_Mobile_HQ.png" alt="wireframe mobile" width="300px" height="600px">
+<img src="./assets/images/readme_images/master-yourself-mobile-hq.png" alt="wireframe mobile" width="300px" height="600px">
 
 ## Features
 
@@ -129,36 +129,36 @@ The navigation menu can be accessed by clicking on the black round icon on the t
 - In the landing image there is a younger Greene than his current age, who looks ambitious, clever and successful. The photo should mirror the personality of businessmen and politicians who would like to be like Robert Greene, or anyone aiming at self-developing.
 - On the left of the image there is a blue cerulean window introducing the worldwide reputation of Robert Greene as the modern Macchiavelli
 
-![landing image](./assets/images/readme_images/landing_image.png)
+![landing image](./assets/images/readme_images/landing-image.png)
 
 ### Reasons section and Youtube video
 
 - Under the landing image of the Home page, there is a short introduction about the writer and a list of reasons about why the visitors should read the books of Robert Greene.
 - At the bottom of the Home page, under the paragraph "Why should you read the books of Robert Greene?", there is a YouTube video in which Greene talks about Human Nature. The scope of the video is for the visitors of the website to get acquainted with Greene and his passion and knowledge about Human Nature, and to encourage them to visit the other pages of the site.
 
-![youtube video](./assets/images/readme_images/introduction_page.png)
+![youtube video](./assets/images/readme_images/introduction-page.png)
 
 ### "The Books" page
 
 Here the visitors can find an introduction about the content of every book of Greene.
 
-![books page](./assets/images/readme_images/books_page.png)
+![books page](./assets/images/readme_images/books-page.png)
 
 ### "About the Author" page
 
 In this page there is Greene with his cat and surrounded by books. This page wants to give some information about the life of the author and the photo with the pet conveys friendliness and familiarity with him. The books around him remind of his knowledge.
 
-![author page](./assets/images/readme_images/author_page.png)
+![author page](./assets/images/readme_images/author-page.png)
 
 ### "Get Free eBook" page
 
 - Here the visitors have the opportunity to fill out a form to subscribe to our newsletter and get one of the books in eBook format. It is an option to promote free culture and knowledge for the sake of society and learning.
   
-![free eBook](./assets/images/readme_images/freebook_page2.png)
+![free eBook](./assets/images/readme_images/freebook-page2.png)
 
 - On the photo of the page there are all the books of Greene. They look on a "homy" surface and some of them are used. The photo wants to give the idea to the visitors of the site that with "one-click" they can receive the free eBook and read it comfortably on the sofa of their home.
 
-![free eBook](./assets/images/readme_images/freebook_page1.png)
+![free eBook](./assets/images/readme_images/freebook-page1.png)
 
 ### Footer
 
@@ -188,13 +188,13 @@ We would like to create a page with the list of all the events to which Robert G
 
 The result of the W3C Validator is all correct, except of the lines below where I get the following green message: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. "
 
-<img src="./assets/images/readme_images/html_validation_index.png" alt="index.html" height="450px" width="700px">
+<img src="./assets/images/readme_images/html-validation-index.png" alt="index.html" height="450px" width="700px">
 
-<img src="./assets/images/readme_images/html_validation_books.png" alt="books.html" height="800px" width="650x">
+<img src="./assets/images/readme_images/html-validation-books.png" alt="books.html" height="800px" width="650x">
 
-<img src="./assets/images/readme_images/html_validation_author.png" alt="author.html" height="850px" width="650px">
+<img src="./assets/images/readme_images/html-validation-author.png" alt="author.html" height="850px" width="650px">
 
-<img src="./assets/images/readme_images/html_validation_freebok.png" alt="freebook.html" height="900px" width="600px">
+<img src="./assets/images/readme_images/html-validation-freebok.png" alt="freebook.html" height="900px" width="600px">
 
 The message is due to a slash at the end of the end tag, that I removed multiple times but then it is added again by the IDE automatically anytime I save the HTML page.
 
@@ -202,17 +202,17 @@ The message is due to a slash at the end of the end tag, that I removed multiple
 
 No errors after checking the code with  W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
 
-![CSS-Validation](./assets/images/readme_images/css_validation.png)
+![CSS-Validation](./assets/images/readme_images/css-validation.png)
 
 ### Lighthouse testing
 
 Here below the score resulting from Lighthouse testing for the Website.
 
-![Lightouse-Desktop](./assets/images/readme_images/Lightouse_testing_Desktop.png)
+![Lightouse-Desktop](./assets/images/readme_images/lightouse-testing-desktop.png)
 
 And the following the result for the Mobile version.
 
-![Lightouse-Mobile](./assets/images/readme_images/Lightouse_testing_Mobile.png)
+![Lightouse-Mobile](./assets/images/readme_images/lightouse-testing-mobile.png)
 
 ### Form testing
 
