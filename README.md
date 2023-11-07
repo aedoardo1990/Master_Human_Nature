@@ -303,7 +303,7 @@ The photos were taken from the following websites:
 - Inspiration for the dropdown bar - [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp)
 - Inspiration for the form menu - [Code Institute] (Coders Coffehouse Project, Love Running Project) and [Ferrari](https://www.ferrari.com/en-EN/auto/owner-reg)
 - Starting structure of the site - [Code Institute] (Love Running Project)
-- Books section for screens from 768px and up - [Amazon](https://www.amazon.de/-/en/Kommunikation-Psychologie-Business-Karriere-B%C3%BCcher/b/ref=dp_bc_aui_C_3?ie=UTF8&node=467524)
+- Books section for screens from 768px and up - line 394 of CSS code - [Amazon](https://www.amazon.de/-/en/Kommunikation-Psychologie-Business-Karriere-B%C3%BCcher/b/ref=dp_bc_aui_C_3?ie=UTF8&node=467524)
 - Inspiration for the Readme - [mindyoga](https://github.com/AliOKeeffe/mindyoga/blob/main/README.md) and [pawsome](https://github.com/dasunicorn/pawsome)
 
 ## Acknowledgements
