@@ -112,7 +112,7 @@ main {
     margin-top: 120px;
 }
 
-/*Robert Greene section*/
+/*Robert Greene introduction */
 #Robert-Greene {
     height: 49rem;
     width: 100%;
@@ -121,6 +121,7 @@ main {
     margin-top: -55px;
 }
 
+/* Blue semi-transparent window in the Home page */
 #cover-text {
     /*Final rgba value sets the opacity so that it is semi-transparent*/
     background-color: rgba(44, 130, 171, .7);
@@ -156,6 +157,7 @@ ol>li {
     margin-top: 100px;
 }
 
+/*Youtube video*/
 #video {
     margin-bottom: 0.5rem;
     width: 100%;
@@ -163,7 +165,6 @@ ol>li {
 }
 
 /*Footer*/
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -179,7 +180,7 @@ ol>li {
     padding: 3%;
 }
 
-/* Books */
+/* The Books page */
 #h2-books {
     margin-top: 30%;
     margin-left: 15px;
@@ -201,7 +202,7 @@ ol>li {
     margin: 22px;
 }
 
-/* Author Section */
+/* About the Author page */
 #author-title {
     margin-left: 15px;
     margin-top: 49px;
@@ -226,7 +227,7 @@ ol>li {
     width: 90%;
 }
 
-/* Form Section */
+/* Form page */
 #form-title {
     margin-left: 10px;
     margin-top: 39px;
@@ -287,7 +288,7 @@ ol>li {
         margin-bottom: 10%;
     }
 
-    /* Books section */
+    /* The Books page */
     #h2-books {
         margin-top: 10%;
         margin-left: 30px;
@@ -310,7 +311,7 @@ ol>li {
         margin-bottom: 5%;
     }
 
-    /* Author Section */
+    /* About the Author page */
     #author-title {
         margin-top: -2%;
         margin-left: 30px;
@@ -329,7 +330,7 @@ ol>li {
         width: 90%;
     }
 
-    /* Form section */
+    /* Form page */
     #form-title {
         margin-left: 10%;
         margin-top: 2%;
@@ -348,7 +349,6 @@ ol>li {
     }
 }
 
-
 /*Media query tablet and larger (768px and up)*/
 @media screen and (min-width:768px) {
 
@@ -356,7 +356,6 @@ ol>li {
     #Robert-Greene {
         background-position: right 0px center;
         margin-top: -40px;
-
     }
 
     #cover-text {
@@ -380,7 +379,7 @@ ol>li {
         display: none;
     }
 
-    /*Books section */
+    /*The Books page */
     #h2-books {
         margin-left: 10%;
     }
@@ -399,12 +398,10 @@ ol>li {
         padding-left: 2px;
     }
 
-
-    /* Author section */
+    /* About the Author page */
     #author-title {
         margin-left: 50px;
         margin-top: 15px;
-
     }
 
     #author {
@@ -426,7 +423,7 @@ ol>li {
         margin-bottom: 25px;
     }
 
-    /* Form Section */
+    /* Form page */
     #form-title {
         margin-left: 10%;
         margin-top: 15px;
@@ -445,19 +442,19 @@ ol>li {
     }
 }
 
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width:992px) {
 
+    /* Home page */
     #video {
         width: 80%;
         margin-bottom: 3.5rem;
     }
 
+    /* About the Author page */
     #author-title {
         margin-left: 50px;
         margin-top: 15px;
-
     }
 
     #author {
@@ -477,7 +474,7 @@ ol>li {
         width: 90%;
     }
 
-    /* Form Section */
+    /* Form page */
     #form-title {
         margin-top: 50px;
         margin-left: 10%;
