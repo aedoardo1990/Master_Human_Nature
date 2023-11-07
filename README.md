@@ -176,7 +176,7 @@ We would like to add a Video page to the website, where new videos are published
 
 #### ECommerce page
 
-We would like to develop an ecommerce page to provide the hard copies of our books directly to the customers.
+We would like to develop an ecommerce page to provide the hard copies of our books directly to our customers.
 
 #### Events page
 
@@ -206,17 +206,17 @@ No errors after checking the code with  W3C Jigsaw CSS Validator. There is just 
 
 ### Lighthouse testing
 
-Here below the score resulting from Lighthouse testing for the website.
+Here below the score resulting from Lighthouse testing for the Website.
 
 ![Lightouse-Desktop](./assets/images/readme_images/Lightouse_testing_Desktop.png)
 
-And the following the result for the mobile version.
+And the following the result for the Mobile version.
 
 ![Lightouse-Mobile](./assets/images/readme_images/Lightouse_testing_Mobile.png)
 
 ### Form testing
 
-The form has tested to ensure that it will not submit without the required fields being filled out - First Name, Last Name, Email-Address.
+The form has been tested to ensure that it will not submit without the required fields being filled out - First Name, Last Name, Email-Address.
 
 ### Browser testing
 
@@ -235,14 +235,14 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 #### Dropdown menu not working properly on mobiles
 
 - The dropdown menu was opening too quickly on mobile, and it was often redirecting to the Home page before having the time to select any of the other pages. This was because the dropdown hover fuction implemented in CSS works on desktop, but not on mobile where the hovering should be replaced by clicking.
-- I was unsure what was the root cause, which of the elements to which I applied the CSS was the one provoking the issue.
+- I was unsure what was the root cause, what of the elements to which I applied the CSS was the one provoking the issue.
 - The issue was resolved by applying the CSS declaration "display:block" to all these elements as per line 97 of the CSS file.
 
 #### Images not loading on the pages "About the author" and "Get free eBook"
 
 - On the deployed version of the website, the images were not loading on the pages mentioned in the title.
 - For the photo in the "About the author" page, I added a dot at the beginning of the url - src="./assets/images/robertGreeneCat.jpg" - and then the photo loaded successfully.  
-- For the second photo in the "Get free eBook" page, I removed the mentioned dot and I changed the name of the file photo all lowercase - src=/assets/images/allthebooks.png . Then the loading worked out.
+- For the second photo in the "Get free eBook" page, I removed the mentioned dot and I changed the name of the file to all lowercase - src=/assets/images/allthebooks.png . Then the loading worked out.
 
 ### Unfixed bugs
 
@@ -259,8 +259,8 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 
 - [Balsamiq](https://balsamiq.com/) - to generate Wireframes
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - for testing responsivness, development of the website and lighthouse testing
-- [Google Fonts](https://fonts.google.com/) - to import fonts on the website
-- [Font Awesome](https://fontawesome.com/) - for social media icons in footer and for icon of the dropdown menu
+- [Google Fonts](https://fonts.google.com/) - to import fonts to the website
+- [Font Awesome](https://fontawesome.com/) - for social media icons in footer and for the icon of the dropdown menu
 - [W3C](https://www.w3.org/) - for HTML & CSS Validation.
 
 ## Deployment
@@ -296,7 +296,7 @@ The photos were taken from the following websites:
 
 - [Wikipedia](https://www.wikipedia.org/) - landing image on the Home page
 - [Pinterest](https://www.pinterest.it/) - covers of the books on "The Books" page and photo of the author on "About the author" page
-- [Mediuam] (<https://medium.com/@keepasking/a-year-with-robert-greene-102876c9b4ca>) - photo of all the books on the page "Get free eBook"
+- [Medium] (<https://medium.com/@keepasking/a-year-with-robert-greene-102876c9b4ca>) - photo of all the books on the page "Get free eBook"
 
 ### Code used
 
