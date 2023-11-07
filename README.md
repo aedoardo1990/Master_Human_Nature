@@ -25,7 +25,7 @@ Check out our site at [https://aedoardo1990.github.io/Master_Human_Nature/]!
   - [Typography](#typography)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
-  - - [Features](#features)
+    - - [Features](#features)
     - [The dropdown navigation menu](#the-dropdown-navigation-menu)
     - [The landing image](#the-landing-image)
     - [Reasons section and Youtube video](#reasons-section-and-youtube-video)
@@ -251,12 +251,12 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 
-1- Go to the repository on GitHub.com
-2- Select 'Settings' near the top of the page.
-3- Select 'Pages' from the menu bar on the left of the page.
-4- Under 'Source' select the 'Branch' dropdown menu and select the main branch.
-5- Once selected, click the 'Save'.
-6- Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
 The link of the deployed site can be found here - [Master Yourself](https://aedoardo1990.github.io/Master_Human_Nature/)
 
