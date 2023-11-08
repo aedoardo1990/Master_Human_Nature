@@ -520,7 +520,7 @@ ol > li {
 }
 
 /* Large devices (laptops and desktops, 1440px and up) */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   /* Header */
   h1 {
     font-size: 300%;
