@@ -292,7 +292,6 @@ ol > li {
   .books {
     margin-bottom: 20%;
     width: 90%;
-    margin-left: 10% auto;
   }
 
   .books img {
@@ -514,7 +513,7 @@ ol > li {
   }
 
   .book-summary {
-    font-size: 140%;
+    font-size: 125%;
     width: 53%;
   }
 }
