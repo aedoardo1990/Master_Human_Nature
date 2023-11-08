@@ -6,8 +6,7 @@ Master Yourself has a simple and user-friendly design, and a captivating look ai
 
 The live link of our site can be found here - [Master Yourself](https://aedoardo1990.github.io/Master_Human_Nature/).
 
-![Responsive Mockup](https://github.com/aedoardo1990/Master_Human_Nature/blob/main/assets/images/readme_images/readme_mockup.png)
----
+## ![Responsive Mockup](https://github.com/aedoardo1990/Master_Human_Nature/blob/main/assets/images/readme_images/readme_mockup.png)
 
 # Content
 
@@ -36,10 +35,10 @@ The live link of our site can be found here - [Master Yourself](https://aedoardo
     - ["Get Free eBook" page](#get-free-ebook-page)
     - [Footer](#footer)
   - [Features left to implement](#features-left-to-implement)
-      - [Flip cards](#flip-cards)
-      - [Video page](#video-page)
-      - [ECommerce page](#ecommerce-page)
-      - [Events page](#events-page)
+    - [Flip cards](#flip-cards)
+    - [Video page](#video-page)
+    - [ECommerce page](#ecommerce-page)
+    - [Events page](#events-page)
   - [Testing](#testing)
     - [HTML-W3C-Validator](#html-w3c-validator)
     - [CSS-Validator](#css-validator)
@@ -157,7 +156,7 @@ In this page there is Greene with his cat and surrounded by books. This page wan
 ### "Get Free eBook" page
 
 - Here the visitors have the opportunity to fill out a form to subscribe to our newsletter and get one of the books in eBook format. It is an option to promote free culture and knowledge for the sake of society and learning.
-  
+
 ![free eBook](./assets/images/readme_images/freebook-page2.png)
 
 - On the photo of the page there are all the books of Greene. They look on a "homy" surface and some of them are used. The photo wants to give the idea to the visitors of the site that with "one-click" they can receive the free eBook and read it comfortably on the sofa of their home.
@@ -204,7 +203,7 @@ The message is due to a slash at the end of the end tag, that I removed multiple
 
 ### CSS-Validator
 
-No errors after checking the code with  W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
+No errors after checking the code with W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
 
 ![CSS-Validation](./assets/images/readme_images/css-validation.png)
 
@@ -245,7 +244,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 #### Images not loading on the pages "About the author" and "Get free eBook"
 
 - On the deployed version of the website, the images were not loading on the pages mentioned in the title.
-- For the photo in the "About the author" page, I added a dot at the beginning of the url - src="./assets/images/robertGreeneCat.jpg" - and then the photo loaded successfully.  
+- For the photo in the "About the author" page, I added a dot at the beginning of the url - src="./assets/images/robertGreeneCat.jpg" - and then the photo loaded successfully.
 - For the second photo in the "Get free eBook" page, I removed the mentioned dot and I changed the name of the file to all lowercase - src=/assets/images/allthebooks.png . Then the loading worked out.
 
 ### Unfixed bugs

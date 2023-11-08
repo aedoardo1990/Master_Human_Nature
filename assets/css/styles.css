@@ -1,97 +1,97 @@
 /*Google Fonts Import*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:ital@0;1&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:ital@0;1&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /*Wildcard selector*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*General styles*/
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*Generic property styles*/
-    color: #d4af37;
-    background-color: black;
-    font-family: 'Lora', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*Generic property styles*/
+  color: #d4af37;
+  background-color: black;
+  font-family: "Lora", sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #d4af37;
-    padding: 2%;
-    position: absolute;
-    z-index: 99;
-    width: 100%;
+  background-color: #d4af37;
+  padding: 2%;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
 }
 
 h1 {
-    text-transform: uppercase;
-    color: black;
-    float: right;
-    font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+  float: right;
+  font-size: 2rem;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 0px;
-    list-style-type: none;
+  font-size: 110%;
+  letter-spacing: 0px;
+  list-style-type: none;
 }
 
-#menu>li {
-    margin-bottom: 0.5em;
+#menu > li {
+  margin-bottom: 0.5em;
 }
 
 /*Dropdown button*/
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .dropbtn {
-    background-color: #d4af37;
-    padding: 14px;
-    font-size: 20px;
-    border: none;
-    margin-bottom: 2px;
-    border-radius: 50%;
-    height: 200%;
+  background-color: #d4af37;
+  padding: 14px;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 2px;
+  border-radius: 50%;
+  height: 200%;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: flex;
-    float: left;
+  position: relative;
+  display: flex;
+  float: left;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    top: 50px
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 50px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: #d4af37;
-    padding: 12px 12px;
-    text-decoration: none;
-    display: block;
+  color: #d4af37;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #d4af37;
-    color: black;
-    border: black thin;
-    transition: 0.6s linear;
+  background-color: #d4af37;
+  color: black;
+  border: black thin;
+  transition: 0.6s linear;
 }
 
 /* Show the dropdown menu on hover */
@@ -101,540 +101,535 @@ ul {
 .dropbtn:active .dropdown-content,
 .dropdown-icon:hover .dropdown-content,
 .dropdown-icon:active .dropdown-content {
-    display: block;
+  display: block;
 }
 
 /* Main */
 main {
-    background-color: black;
-    /*Make main element take up any surplus space to push further down*/
-    flex: 1 0 auto;
-    margin-top: 120px;
+  background-color: black;
+  /*Make main element take up any surplus space to push further down*/
+  flex: 1 0 auto;
+  margin-top: 120px;
 }
 
 /*Robert Greene introduction */
 #Robert-Greene {
-    height: 49rem;
-    width: 100%;
-    background: url("../images/robert-greene.jpg") no-repeat center;
-    position: relative;
-    margin-top: -55px;
+  height: 49rem;
+  width: 100%;
+  background: url("../images/robert-greene.jpg") no-repeat center;
+  position: relative;
+  margin-top: -55px;
 }
 
 /* Blue semi-transparent window in the Home page */
 #cover-text {
-    /*Final rgba value sets the opacity so that it is semi-transparent*/
-    background-color: rgba(44, 130, 171, .7);
-    font-size: 100%;
-    position: relative;
-    bottom: -70%;
-    width: 70%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+  /*Final rgba value sets the opacity so that it is semi-transparent*/
+  background-color: rgba(44, 130, 171, 0.7);
+  font-size: 100%;
+  position: relative;
+  bottom: -70%;
+  width: 70%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
 }
 
 #introduction {
-    width: 90%;
-    margin: 100px auto;
+  width: 90%;
+  margin: 100px auto;
 }
 
 #reasons {
-    color: #d4af37;
-    width: 90%;
-    margin: 20px auto;
-    margin-top: 100px;
+  color: #d4af37;
+  width: 90%;
+  margin: 20px auto;
+  margin-top: 100px;
 }
 
-ol>li {
-    list-style-position: inside;
-    list-style-type: upper-roman;
+ol > li {
+  list-style-position: inside;
+  list-style-type: upper-roman;
 }
 
 #understand {
-    width: 90%;
-    margin: 20px auto;
-    margin-top: 100px;
+  width: 90%;
+  margin: 20px auto;
+  margin-top: 100px;
 }
 
 /*Youtube video*/
 #video {
-    margin-bottom: 0.5rem;
-    width: 100%;
-    border: black;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border: black;
 }
 
 /*Footer*/
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #d4af37;
-    color: black;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: #d4af37;
+  color: black;
 }
 
 #social-networks {
-    font-size: 120%;
-    padding: 3%;
+  font-size: 120%;
+  padding: 3%;
 }
 
 /* The Books page */
 #h2-books {
-    margin-top: 30%;
-    margin-left: 15px;
+  margin-top: 30%;
+  margin-left: 15px;
 }
 
 .books {
-    margin-bottom: 20%;
-    width: 90%;
-    margin: 15% auto;
+  margin-bottom: 20%;
+  width: 90%;
+  margin: 15% auto;
 }
 
 .titles {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .books img {
-    width: 85%;
-    margin: 22px;
+  width: 85%;
+  margin: 22px;
 }
 
 /* About the Author page */
 #author-title {
-    margin-left: 15px;
-    margin-top: 49px;
+  margin-left: 15px;
+  margin-top: 49px;
 }
 
 #author {
-    border-radius: 50%;
-    width: 90%;
-    margin-left: 15px;
-    margin-top: 30px;
-    margin-bottom: 25px;
+  border-radius: 50%;
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 .titles-bio {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    width: 90%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 90%;
 }
 
 .life {
-    margin-left: 20px;
-    width: 90%;
+  margin-left: 20px;
+  width: 90%;
 }
 
 /* Form page */
 #form-title {
-    margin-left: 10px;
-    margin-top: 39px;
-    font-size: large;
+  margin-left: 10px;
+  margin-top: 39px;
+  font-size: large;
 }
 
 #newsletter {
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
 }
 
 #Greene-books {
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 35px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
 .text-input {
-    background: black;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border-bottom: 1px solid #fafafa;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-radius: 2px;
-    padding: 0 5px;
+  background: black;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border-bottom: 1px solid #fafafa;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 2px;
+  padding: 0 5px;
 }
 
 .getbook-button {
-    margin-top: 20px;
-    border-radius: 20%;
-    padding: 15px 52px;
-    font-size: 100%;
-    background-color: black;
-    border-color: #d4af37;
-    color: #d4af37;
+  margin-top: 20px;
+  border-radius: 20%;
+  padding: 15px 52px;
+  font-size: 100%;
+  background-color: black;
+  border-color: #d4af37;
+  color: #d4af37;
 }
 
 .getbook-button:hover {
-    background-color: #006400;
-    color: #d4af37;
+  background-color: #006400;
+  color: #d4af37;
 }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+  /* Home */
+  #video {
+    margin-bottom: 10%;
+  }
 
-    /* Home */
-    #video {
-        margin-bottom: 10%;
-    }
+  /* The Books page */
+  #h2-books {
+    margin-top: 10%;
+    margin-left: 30px;
+  }
 
-    /* The Books page */
-    #h2-books {
-        margin-top: 10%;
-        margin-left: 30px;
-    }
+  .books {
+    margin-bottom: 20%;
+    width: 90%;
+    margin-left: 10% auto;
+  }
 
-    .books {
-        margin-bottom: 20%;
-        width: 90%;
-        margin-left: 10% auto;
-    }
+  .books img {
+    width: 70%;
+    margin: 80px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 
-    .books img {
-        width: 70%;
-        margin: 80px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
+  #main-sizes {
+    margin-bottom: 5%;
+  }
 
-    #main-sizes {
-        margin-bottom: 5%;
-    }
+  /* About the Author page */
+  #author-title {
+    margin-top: -2%;
+    margin-left: 30px;
+  }
 
-    /* About the Author page */
-    #author-title {
-        margin-top: -2%;
-        margin-left: 30px;
-    }
+  #author {
+    margin-left: 30px;
+  }
 
-    #author {
-        margin-left: 30px;
-    }
+  .titles-bio {
+    margin-left: 30px;
+  }
 
-    .titles-bio {
-        margin-left: 30px;
-    }
+  .life {
+    margin-left: 30px;
+    width: 90%;
+  }
 
-    .life {
-        margin-left: 30px;
-        width: 90%;
-    }
+  /* Form page */
+  #form-title {
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: x-large;
+  }
 
-    /* Form page */
-    #form-title {
-        margin-left: 10%;
-        margin-top: 2%;
-        font-size: x-large;
-    }
+  #data {
+    font-size: 110%;
+    margin-bottom: 4%;
+  }
 
-    #data {
-        font-size: 110%;
-        margin-bottom: 4%;
-    }
-
-    .getbook-button {
-        margin-left: 24%;
-        margin-bottom: 5%;
-        margin-top: 7%;
-    }
+  .getbook-button {
+    margin-left: 24%;
+    margin-bottom: 5%;
+    margin-top: 7%;
+  }
 }
 
 /*Media query tablet and larger (768px and up)*/
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
+  /* Home */
+  #Robert-Greene {
+    background-position: right 0px center;
+    margin-top: -40px;
+  }
 
-    /* Home */
-    #Robert-Greene {
-        background-position: right 0px center;
-        margin-top: -40px;
-    }
+  #cover-text {
+    position: absolute;
+    bottom: 18%;
+    width: 40%;
+  }
 
-    #cover-text {
-        position: absolute;
-        bottom: 18%;
-        width: 40%;
-    }
+  #video {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 3.5rem;
+  }
 
-    #video {
-        width: 100%;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 3.5rem;
-    }
+  #menu-title {
+    display: inline;
+  }
 
-    #menu-title {
-        display: inline;
-    }
+  /* Footer */
+  #social-networks {
+    font-size: 160%;
+  }
 
-    /* Footer */
-    #social-networks {
-        font-size: 160%;
-    }
+  /*The Books page */
+  #h2-books {
+    margin-left: 10%;
+  }
 
-    /*The Books page */
-    #h2-books {
-        margin-left: 10%;
-    }
+  .books img {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 25px;
+  }
 
-    .books img {
-        max-width: 40%;
-        max-height: 40%;
-        margin: 25px;
-    }
+  .book-summary {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 1.5rem;
+    width: 49%;
+    padding-left: 20px;
+  }
 
-    .book-summary {
-        display: inline-block;
-        vertical-align: top;
-        padding-top: 1.5rem;
-        width: 49%;
-        padding-left: 20px;
-    }
+  /* About the Author page */
+  #author-title {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
 
-    /* About the Author page */
-    #author-title {
-        margin-left: 50px;
-        margin-top: 15px;
-    }
+  #author {
+    border-radius: 50%;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
 
-    #author {
-        border-radius: 50%;
-        width: 90%;
-        margin-left: 40px;
-        margin-top: 50px;
-    }
+  .titles-bio {
+    margin-left: 40px;
+    width: 90%;
+  }
 
-    .titles-bio {
-        margin-left: 40px;
-        width: 90%;
-    }
+  .life {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 90%;
+    margin-bottom: 25px;
+  }
 
-    .life {
-        margin-top: 15px;
-        margin-left: 40px;
-        width: 90%;
-        margin-bottom: 25px;
-    }
+  /* Form page */
+  #form-title {
+    margin-left: 10%;
+    margin-top: 15px;
+    font-size: x-large;
+  }
 
-    /* Form page */
-    #form-title {
-        margin-left: 10%;
-        margin-top: 15px;
-        font-size: x-large;
-    }
+  #data {
+    font-size: 120%;
+    margin-bottom: 4%;
+  }
 
-    #data {
-        font-size: 120%;
-        margin-bottom: 4%;
-    }
-
-    .getbook-button {
-        margin-left: 31%;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
+  .getbook-button {
+    margin-left: 31%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
+  /* Home page */
+  #video {
+    width: 80%;
+    margin-bottom: 3.5rem;
+  }
 
-    /* Home page */
-    #video {
-        width: 80%;
-        margin-bottom: 3.5rem;
-    }
+  /* Footer */
+  #social-networks {
+    font-size: 160%;
+  }
 
-    /* Footer */
-    #social-networks {
-        font-size: 160%;
-    }
+  /*The Books page*/
+  .book-summary {
+    width: 53%;
+    padding-left: 40px;
+  }
 
-    /*The Books page*/
-    .book-summary {
-        width: 53%;
-        padding-left: 40px;
-    }
+  /* About the Author page */
+  #author-title {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
 
-    /* About the Author page */
-    #author-title {
-        margin-left: 50px;
-        margin-top: 15px;
-    }
+  #author {
+    border-radius: 50%;
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 50px;
+  }
 
-    #author {
-        border-radius: 50%;
-        width: 70%;
-        margin-left: 150px;
-        margin-top: 50px;
-    }
+  .titles-bio {
+    margin-left: 50px;
+  }
 
-    .titles-bio {
-        margin-left: 50px;
-    }
+  .life {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 90%;
+  }
 
-    .life {
-        margin-left: 50px;
-        margin-bottom: 30px;
-        width: 90%;
-    }
+  /* Form page */
+  #form-title {
+    margin-top: 50px;
+    margin-left: 10%;
+  }
 
-    /* Form page */
-    #form-title {
-        margin-top: 50px;
-        margin-left: 10%;
-    }
+  #Greene-books {
+    margin-bottom: 6%;
+  }
 
-    #Greene-books {
-        margin-bottom: 6%;
-    }
+  #data {
+    font-size: 120%;
+    margin-bottom: 4%;
+  }
 
-    #data {
-        font-size: 120%;
-        margin-bottom: 4%;
-    }
-
-    .getbook-button {
-        margin-top: 5%;
-        margin-left: 34%;
-        margin-bottom: 5%;
-    }
+  .getbook-button {
+    margin-top: 5%;
+    margin-left: 34%;
+    margin-bottom: 5%;
+  }
 }
 
 /* Large devices (laptops and desktops, 1024px and up) */
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
+  /* Footer */
+  #social-networks {
+    font-size: 200%;
+  }
 
-    /* Footer */
-    #social-networks {
-        font-size: 200%;
-    }
+  /*The Books page*/
+  .titles {
+    font-size: 140%;
+  }
 
-    /*The Books page*/
-    .titles {
-        font-size: 140%;
-    }
-
-    .book-summary {
-        font-size: 140%;
-        width: 53%;
-    }
+  .book-summary {
+    font-size: 140%;
+    width: 53%;
+  }
 }
 
 /* Large devices (laptops and desktops, 1440px and up) */
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
+  /* Header */
+  h1 {
+    font-size: 300%;
+  }
 
-    /* Header */
-    h1 {
-        font-size: 300%;
-    }
+  /*Dropdown menu*/
+  .dropbtn {
+    font-size: 170%;
+  }
 
-    /*Dropdown menu*/
-    .dropbtn {
-        font-size: 170%;
-    }
+  .dropdown-content {
+    width: 260%;
+    font-size: 130%;
+    top: 100%;
+  }
 
-    .dropdown-content {
-        width: 260%;
-        font-size: 130%;
-        top: 100%;
-    }
+  /* Home page */
+  #cover-text {
+    font-size: 140%;
+  }
 
-    /* Home page */
-    #cover-text {
-        font-size: 140%;
-    }
+  #introduction {
+    font-size: 140%;
+  }
 
-    #introduction {
-        font-size: 140%;
-    }
+  #reasons {
+    font-size: 140%;
+  }
 
-    #reasons {
-        font-size: 140%;
-    }
+  #understand {
+    font-size: 140%;
+  }
 
-    #understand {
-        font-size: 140%;
-    }
+  #video {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+  }
 
-    #video {
-        width: 80%;
-        margin-top: 2rem;
-        margin-bottom: 8rem;
-    }
+  /* Footer */
+  #social-networks {
+    font-size: 220%;
+  }
 
-    /* Footer */
-    #social-networks {
-        font-size: 220%;
-    }
+  /*The Books page*/
+  #h2-books {
+    font-size: 220%;
+    margin-left: 7.5%;
+  }
 
-    /*The Books page*/
-    #h2-books {
-        font-size: 220%;
-        margin-left: 7.5%;
-    }
+  .titles {
+    font-size: 170%;
+  }
 
-    .titles {
-        font-size: 170%;
-    }
+  .book-summary {
+    font-size: 140%;
+    width: 53%;
+    padding-left: 50px;
+  }
 
-    .book-summary {
-        font-size: 140%;
-        width: 53%;
-        padding-left: 50px;
-    }
+  .books img {
+    margin-left: 3%;
+  }
 
-    .books img {
-        margin-left: 3%;
-    }
+  /* About the Author page */
+  #author-title {
+    font-size: 220%;
+    margin-top: 5%;
+    margin-left: 6%;
+  }
 
-    /* About the Author page */
-    #author-title {
-        font-size: 220%;
-        margin-top: 5%;
-        margin-left: 6%;
-    }
+  #author {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 60px;
+    margin-bottom: 75px;
+  }
 
-    #author {
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 60px;
-        margin-bottom: 75px;
-    }
+  .titles-bio {
+    font-size: 170%;
+    margin-left: 6%;
+  }
 
-    .titles-bio {
-        font-size: 170%;
-        margin-left: 6%;
-    }
+  .life {
+    font-size: 140%;
+    margin-left: 6%;
+    margin-bottom: 6.5%;
+  }
 
-    .life {
-        font-size: 140%;
-        margin-left: 6%;
-        margin-bottom: 6.5%;
-    }
+  /* Form page */
+  #form-title {
+    font-size: 220%;
+  }
 
-    /* Form page */
-    #form-title {
-        font-size: 220%;
-    }
+  #data {
+    font-size: 170%;
+  }
 
-    #data {
-        font-size: 170%;
-    }
+  .text-input {
+    font-size: 140%;
+  }
 
-    .text-input {
-        font-size: 140%;
-    }
+  label {
+    font-size: 140%;
+  }
 
-    label {
-        font-size: 140%;
-    }
-
-    .getbook-button {
-        font-size: 140%;
-        margin-top: 6.5%;
-        margin-bottom: 6.5%;
-    }
+  .getbook-button {
+    font-size: 140%;
+    margin-top: 6.5%;
+    margin-bottom: 6.5%;
+  }
 }
