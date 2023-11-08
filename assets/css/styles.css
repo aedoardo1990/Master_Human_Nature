@@ -379,6 +379,11 @@ ol>li {
         display: none;
     }
 
+    /* Footer */
+    #social-networks {
+        font-size: 160%;
+    }
+
     /*The Books page */
     #h2-books {
         margin-left: 10%;
@@ -451,6 +456,11 @@ ol>li {
         margin-bottom: 3.5rem;
     }
 
+    /* Footer */
+    #social-networks {
+        font-size: 160%;
+    }
+
     /* About the Author page */
     #author-title {
         margin-left: 50px;
@@ -493,5 +503,124 @@ ol>li {
         margin-top: 5%;
         margin-left: 34%;
         margin-bottom: 5%;
+    }
+}
+
+/* Large devices (laptops and desktops, 1024px and up) */
+@media screen and (min-width:1024px) {
+
+    /* Footer */
+    #social-networks {
+        font-size: 200%;
+    }
+
+    /*The Books page*/
+    .titles {
+        font-size: 140%;
+    }
+
+    span {
+        font-size: 120%;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 1400px and up) */
+@media screen and (min-width:1024px) {
+
+    /* Header */
+    h1 {
+        font-size: 300%;
+    }
+
+    /*Dropdown menu*/
+    .dropbtn {
+        font-size: 170%;
+    }
+
+    .dropdown-content {
+        width: 260%;
+        font-size: 130%;
+        top: 100%;
+    }
+
+    /* Home page */
+    #cover-text {
+        font-size: 140%;
+    }
+
+    #introduction {
+        font-size: 140%;
+    }
+
+    #reasons {
+        font-size: 140%;
+    }
+
+    #understand {
+        font-size: 140%;
+    }
+
+    #video {
+        width: 85%;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+
+    /* Footer */
+    #social-networks {
+        font-size: 220%;
+    }
+
+    /*The Books page*/
+    #h2-books {
+        font-size: 220%;
+        margin-left: 7.5%;
+    }
+
+    .titles {
+        font-size: 200%;
+    }
+
+    span {
+        font-size: 180%;
+    }
+
+    /* About the Author page */
+    #author-title {
+        font-size: 220%;
+        margin-top: 5%;
+        margin-left: 6%;
+    }
+
+    #author {
+        width: 80%;
+        margin-left: 140px;
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
+
+    .titles-bio {
+        font-size: 200%;
+        margin-left: 6%;
+    }
+
+    .life {
+        font-size: 180%;
+        margin-left: 6%;
+        margin-bottom: 6.5%;
+    }
+
+    /* Form page */
+    #form-title {
+        font-size: 220%;
+    }
+
+    #data {
+        font-size: 200%;
+    }
+
+    .text-input {
+        font-size: 180%;
     }
 }
