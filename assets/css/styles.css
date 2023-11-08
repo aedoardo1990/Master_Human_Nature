@@ -280,10 +280,6 @@ ol>li {
 @media screen and (min-width: 576px) {
 
     /* Home */
-    #menu-title-2 {
-        margin-left: 100px;
-    }
-
     #video {
         margin-bottom: 10%;
     }
@@ -373,10 +369,6 @@ ol>li {
 
     #menu-title {
         display: inline;
-    }
-
-    #menu-title-2 {
-        display: none;
     }
 
     /* Footer */
@@ -531,7 +523,7 @@ ol>li {
     }
 }
 
-/* Large devices (laptops and desktops, 1400px and up) */
+/* Large devices (laptops and desktops, 1440px and up) */
 @media screen and (min-width:1024px) {
 
     /* Header */
