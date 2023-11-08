@@ -502,133 +502,122 @@ ol > li {
 
 /* Large devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
-  /* Footer */
-  #social-networks {
+/* Footer */
+   #social-networks {
     font-size: 200%;
   }
 
-  /*The Books page*/
-  .titles {
-    font-size: 140%;
-  }
-
-  .book-summary {
-    font-size: 125%;
-    width: 53%;
-  }
-}
-
-/* Large devices (laptops and desktops, 1440px and up) */
-@media screen and (min-width: 1440px) {
-  /* Header */
-  h1 {
+   /* Header */
+   h1 {
     font-size: 300%;
   }
 
-  /*Dropdown menu*/
-  .dropbtn {
+   /*Dropdown menu*/
+   .dropbtn {
     font-size: 170%;
   }
 
-  .dropdown-content {
+   .dropdown-content {
     width: 260%;
     font-size: 130%;
     top: 100%;
   }
 
-  /* Home page */
-  #cover-text {
+    /* Home page */
+   #cover-text {
     font-size: 140%;
   }
 
-  #introduction {
+   #introduction {
     font-size: 140%;
   }
 
-  #reasons {
+   #reasons {
     font-size: 140%;
   }
 
-  #understand {
+   #understand {
     font-size: 140%;
   }
 
-  #video {
+   #video {
     width: 80%;
     margin-top: 2rem;
     margin-bottom: 8rem;
   }
 
-  /* Footer */
-  #social-networks {
+   /* Footer */
+   #social-networks {
     font-size: 220%;
   }
 
-  /*The Books page*/
-  #h2-books {
+   /*The Books page*/
+   #h2-books {
     font-size: 220%;
     margin-left: 7.5%;
   }
 
-  .titles {
+   .titles {
     font-size: 170%;
   }
 
-  .book-summary {
+   .book-summary {
     font-size: 140%;
     width: 53%;
     padding-left: 50px;
   }
 
-  .books img {
+   .books img {
     margin-left: 3%;
   }
 
-  /* About the Author page */
-  #author-title {
+   /* About the Author page */
+   #author-title {
     font-size: 220%;
     margin-top: 5%;
     margin-left: 6%;
   }
 
-  #author {
+   #author {
     width: 70%;
     margin-left: 15%;
     margin-top: 60px;
     margin-bottom: 75px;
   }
 
-  .titles-bio {
+   .titles-bio {
     font-size: 170%;
     margin-left: 6%;
   }
 
-  .life {
+   .life {
     font-size: 140%;
     margin-left: 6%;
     margin-bottom: 6.5%;
   }
 
-  /* Form page */
-  #form-title {
+   /* Form page */
+   #form-title {
     font-size: 220%;
   }
 
-  #data {
+   #data {
     font-size: 170%;
   }
 
-  .text-input {
+   .text-input {
     font-size: 140%;
   }
 
-  label {
+   label {
     font-size: 140%;
   }
 
-  .getbook-button {
+   .getbook-button {
     font-size: 140%;
     margin-top: 6.5%;
     margin-bottom: 6.5%;
   }
 }
+
+

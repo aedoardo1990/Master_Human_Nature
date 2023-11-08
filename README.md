@@ -227,7 +227,7 @@ The Website was tested on Google Chrome, Microsoft Edge and Safari with no issue
 
 ### Device testing
 
-The Website was tested on various devices, OnePlusNord10, iPhone13 mini, Google developer tools - Galaxy Fold, iPhone 12 pro, iPad mini, MacBook -, Desktop and created for the following screen sizes: 320px, 576px, 768px, 992px, 1240px and 1440px.
+The Website was tested on various devices, OnePlusNord10, iPhone13 mini, Google developer tools - Galaxy Fold, iPhone 12 pro, iPad mini, MacBook -, Desktop and created for the following screen sizes: 320px, 576px, 768px, 992px, 1240px and up.
 
 ### Mentor, family and friends testing
 
