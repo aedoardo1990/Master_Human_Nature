@@ -35,10 +35,10 @@ The live link of our site can be found here - [Master Yourself](https://aedoardo
     - ["Get Free eBook" page](#get-free-ebook-page)
     - [Footer](#footer)
   - [Features left to implement](#features-left-to-implement)
-    - [Flip cards](#flip-cards)
-    - [Video page](#video-page)
-    - [ECommerce page](#ecommerce-page)
-    - [Events page](#events-page)
+      - [Flip cards](#flip-cards)
+      - [Video page](#video-page)
+      - [ECommerce page](#ecommerce-page)
+      - [Events page](#events-page)
   - [Testing](#testing)
     - [HTML-W3C-Validator](#html-w3c-validator)
     - [CSS-Validator](#css-validator)
@@ -189,17 +189,15 @@ We would like to create a page with the list of all the events to which Robert G
 
 ### HTML-W3C-Validator
 
-The result of the W3C Validator is all correct, except of the lines below where I get the following green message: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. "
+The result of the W3C Validator is all correct, no errors. Here below the results of all the HTML pages. 
 
-<img src="./assets/images/readme_images/html-validation-index.png" alt="index.html" height="450px" width="700px">
+![index.html](./assets/images/readme_images/html_validation_index.png)
 
-<img src="./assets/images/readme_images/html-validation-books.png" alt="books.html" height="800px" width="650x">
+![books.html](./assets/images/readme_images/html_validation_books.png)
 
-<img src="./assets/images/readme_images/html-validation-author.png" alt="author.html" height="850px" width="650px">
+![author.html](./assets/images/readme_images/html_validation_author.png)
 
-<img src="./assets/images/readme_images/html-validation-freebok.png" alt="freebook.html" height="900px" width="600px">
-
-The message is due to a slash at the end of the end tag, that I removed multiple times but then it is added again by the IDE automatically anytime I save the HTML page.
+![freeboook.html](./assets/images/readme_images/html_validation_freebok.png)
 
 ### CSS-Validator
 
@@ -244,8 +242,8 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 #### Images not loading on the pages "About the author" and "Get free eBook"
 
 - On the deployed version of the website, the images were not loading on the pages mentioned in the title.
-- For the photo in the "About the author" page, I added a dot at the beginning of the url - src="./assets/images/robertGreeneCat.jpg" - and then the photo loaded successfully.
-- For the second photo in the "Get free eBook" page, I removed the mentioned dot and I changed the name of the file to all lowercase - src=/assets/images/allthebooks.png . Then the loading worked out.
+- For the photo in the "About the author" page, I added a dot at the beginning of the url - src="./assets/images/robert-greene-cat.jpg" - and then the photo loaded successfully.
+- For the second photo in the "Get free eBook" page, I removed the mentioned dot and I changed the name of the file to all lowercase - src=/assets/images/all-the-books.png . Then the loading worked out.
 
 ### Unfixed bugs
 
