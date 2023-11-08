@@ -247,6 +247,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 ### Unfixed bugs
 
 - Firefox Mobile: the layout of the form section does not display completely as it should. As mentioned in the Browser testing, the dropdown menu does not work completely in Firefox.
+- Image on the "About the Author" page is slightly pixelated on big screen sizes. I tried to look for the same image with better quality but there was not in the web. 
 
 ## Technologies used
 
