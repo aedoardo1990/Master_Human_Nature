@@ -297,7 +297,7 @@ ol>li {
     .books {
         margin-bottom: 20%;
         width: 90%;
-        margin: 10% auto;
+        margin-left: 10% auto;
     }
 
     .books img {
@@ -395,12 +395,12 @@ ol>li {
         margin: 25px;
     }
 
-    span {
+    .book-summary {
         display: inline-block;
         vertical-align: top;
         padding-top: 1.5rem;
         width: 49%;
-        padding-left: 2px;
+        padding-left: 20px;
     }
 
     /* About the Author page */
@@ -461,6 +461,12 @@ ol>li {
         font-size: 160%;
     }
 
+    /*The Books page*/
+    .book-summary {
+        width: 53%;
+        padding-left: 40px;
+    }
+
     /* About the Author page */
     #author-title {
         margin-left: 50px;
@@ -519,10 +525,10 @@ ol>li {
         font-size: 140%;
     }
 
-    span {
-        font-size: 120%;
+    .book-summary {
+        font-size: 140%;
+        width: 53%;
     }
-
 }
 
 /* Large devices (laptops and desktops, 1400px and up) */
@@ -582,9 +588,14 @@ ol>li {
         font-size: 170%;
     }
 
-    span {
+    .book-summary {
         font-size: 140%;
-        width: 55%;
+        width: 53%;
+        padding-left: 50px;
+    }
+
+    .books img {
+        margin-left: 3%;
     }
 
     /* About the Author page */
@@ -595,8 +606,8 @@ ol>li {
     }
 
     #author {
-        width: 80%;
-        margin-left: 130px;
+        width: 70%;
+        margin-left: 15%;
         margin-top: 60px;
         margin-bottom: 75px;
     }
