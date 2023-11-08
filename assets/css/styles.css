@@ -562,7 +562,7 @@ ol>li {
     }
 
     #video {
-        width: 85%;
+        width: 80%;
         margin-top: 2rem;
         margin-bottom: 8rem;
     }
@@ -579,11 +579,12 @@ ol>li {
     }
 
     .titles {
-        font-size: 200%;
+        font-size: 170%;
     }
 
     span {
-        font-size: 180%;
+        font-size: 140%;
+        width: 55%;
     }
 
     /* About the Author page */
@@ -595,18 +596,18 @@ ol>li {
 
     #author {
         width: 80%;
-        margin-left: 140px;
+        margin-left: 130px;
         margin-top: 60px;
         margin-bottom: 75px;
     }
 
     .titles-bio {
-        font-size: 200%;
+        font-size: 170%;
         margin-left: 6%;
     }
 
     .life {
-        font-size: 180%;
+        font-size: 140%;
         margin-left: 6%;
         margin-bottom: 6.5%;
     }
@@ -617,10 +618,20 @@ ol>li {
     }
 
     #data {
-        font-size: 200%;
+        font-size: 170%;
     }
 
     .text-input {
-        font-size: 180%;
+        font-size: 140%;
+    }
+
+    label {
+        font-size: 140%;
+    }
+
+    .getbook-button {
+        font-size: 140%;
+        margin-top: 6.5%;
+        margin-bottom: 6.5%;
     }
 }

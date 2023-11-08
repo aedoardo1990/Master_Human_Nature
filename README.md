@@ -224,7 +224,7 @@ The Website was tested on Google Chrome, Microsoft Edge and Safari with no issue
 
 ### Device testing
 
-The Website was tested on various devices, OnePlusNord10, iPhone13 mini, Google developer tools - Galaxy Fold, iPhone 12 pro, iPad mini, MacBook -, Desktop and created for the following screen sizes: 320px, 576px, 768px, 992px and up
+The Website was tested on various devices, OnePlusNord10, iPhone13 mini, Google developer tools - Galaxy Fold, iPhone 12 pro, iPad mini, MacBook -, Desktop and created for the following screen sizes: 320px, 576px, 768px, 992px, 1240px and 1400px.
 
 ### Mentor, family and friends testing
 
@@ -247,7 +247,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 ### Unfixed bugs
 
 - Firefox Mobile: the layout of the form section does not display completely as it should. As mentioned in the Browser testing, the dropdown menu does not work completely in Firefox.
-- Image on the "About the Author" page is slightly pixelated on big screen sizes. I tried to look for the same image with better quality but there was not in the web. 
+- Image on the "About the Author" page is slightly pixelated on big screen sizes. I tried to look for the same image with better quality but there was not in the web.
 
 ## Technologies used
 
